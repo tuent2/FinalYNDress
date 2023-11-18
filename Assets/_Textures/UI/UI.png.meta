@@ -1,0 +1,1662 @@
+fileFormatVersion: 2
+guid: 5fc5b54842c6ce04d973eecbd5e6bc9f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Comom-finger_for_tutorial
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 10
+        width: 186
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160a99a9bdc98b0419c37bde53c3704b
+      internalID: -1549651114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Comom-Header
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 800
+        width: 766
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5513abc92ea0094e8361314c9bb0ef8
+      internalID: -628298591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Comom-IconADS
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 315
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaa5ccb4864d1a4b87374d9b6e26b54
+      internalID: 65187995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Comom-IconExit
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 96
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237f27a04de207e4eb02ca51c97cb4a2
+      internalID: 843831940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Comom-IconYellowButton
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 241
+        width: 387
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12bd612f4ba11d4b9550496aaea3ef2
+      internalID: 1427822049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Comom-QuaBong
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 525
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e02e700ba483564a832052cf2a9610e
+      internalID: -1106796973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Comom-Ruybang
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1111
+        width: 822
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96e79999980cbb43ad5300160c6ff6e
+      internalID: -1992028554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Comom-Star
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 451
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575827dd9c7e47b4fb3f5f396a36df75
+      internalID: -1867335523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Completed-Button_next
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 567
+        width: 349
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991d7ee12e3ec5f40884fbabc1d88705
+      internalID: 834493603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Completed-Button_share
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 557
+        width: 349
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54733268252a1ce4c9861e3893a079a3
+      internalID: 130299030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Completed-Icon_back
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 131
+        width: 135
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475a294deb3bc5d4cbf9f802524ac064
+      internalID: 64825459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Completed-Icon_share
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 211
+        width: 135
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710e4e303068d4744875c008c6813573
+      internalID: -2121571088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Completed-Icon-co
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 768
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b3a2d96320d5f47b44fd186afe1e65
+      internalID: 1104052622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loading
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 768
+        width: 341
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd37a04dc6e2d643a5ced0cbe885c93
+      internalID: -2110054376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loading-Layer 180 copy
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 504
+        width: 841
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ce4e7b27f7ae142bc21f30d06df907
+      internalID: 1529838271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loading-Loading . . .
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 134
+        width: 456
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f36745e7f2020044b767ce132ce8e58
+      internalID: -1926986275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loading-Rounded Rectangle 20
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 242
+        width: 44
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365d09af79aaab747a1d3f9156b25a0b
+      internalID: -140507410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loading-Thanh tien trinh_full
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 429
+        width: 829
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9277d43df521be1409080a42eb80458d
+      internalID: -355874284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NativeAds-Ad
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1111
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944691333d479564181b7b20a0591ed8
+      internalID: 1882131945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NativeAds-Button
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 634
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bd93c906dde414c83387a663d3cf10
+      internalID: 605758447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NativeAds-Polygon 3 copy 4
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 116
+        width: 97
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7927781206b3a7f429e93e4c4ae00d52
+      internalID: -865442531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverlapCanvas-IconNoAds
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 274
+        width: 155
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7691758b681c547981ba018009088b
+      internalID: 1593783794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverlapCanvas-IconSetting
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 281
+        width: 141
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3bec60a9aafc74290d7d11920dfbc8
+      internalID: -449108849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopUpLimitedItem-Bow
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 695
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5131c3025fe374bbd71dfb7e4f9c10
+      internalID: -1104791866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopUpLimitedItem-ButtonClaim
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 642
+        width: 253
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881d128608dc9ad4eadf36da040e9b7f
+      internalID: -1857998098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopUpLimitedItem-HeaderConner
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 287
+        width: 592
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061bce825e5a0eb488c742848fa8a19c
+      internalID: -1986537779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopUpLimitedItem-text-LIMITED ITEM
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 716
+        width: 387
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f38719a02ca6a4eba240ed7417a1a2
+      internalID: -706020967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopUpLimitedItem-text-Nothanks
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 98
+        width: 136
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49ca6c14b8638845bb1c50711c70582
+      internalID: -961954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rate-star
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 598
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf710abd2d13a64488b517befe9b6cf
+      internalID: 1262851221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rate-unselectStart
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e44dc5f04dfe364bb864da0d949a7b9
+      internalID: 1130722237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Setting-Button_Home
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 422
+        width: 283
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930ae74053d7da342abc860cf0f9948f
+      internalID: 268438789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Setting-Button_silent
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 354
+        width: 165
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e18700770c0d064fb748ac6fccd2251
+      internalID: -999983805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Setting-Button_sound music bt
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 265
+        width: 165
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c23bdaaea2d69d40bce56b72e257625
+      internalID: -1627706612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Setting-icon_music
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 5
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6154a0b40a6b784d83f7d56b595baad
+      internalID: -526869489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Setting-icon_music silent
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 83
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ecfc156caff4f4e9e54d2143ec4682
+      internalID: -1674420810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Setting-icon_sound
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 7
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ead862dec5ad14c8cf2b66aedcb442
+      internalID: 901017735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Setting-icon_sound silent
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 20
+        width: 90
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedc0fa170f872941b33066572fee865
+      internalID: 1155190534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-BgBehindAlbum
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 706
+        width: 328
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42c90007311043409935b18bea3a81c
+      internalID: -102662449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-BgCountNumberModel
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 623
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b294cc64fc73b1245a677f219a697536
+      internalID: 1785607080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-BgDeleteForcus
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 592
+        width: 806
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1eb1104a94ef54d9410945b633da5e
+      internalID: 196481859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-BgMainAlbum
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 746
+        width: 288
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebfea5571a5c1e45a0a3a537695da0d
+      internalID: 1411222220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-BgMiddle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1125
+        width: 1080
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66776ebf400b645419ffdd69b8a05020
+      internalID: 38973468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-BgNumberModel
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 429
+        width: 186
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba95ba48750f26846bd9245f7e1e3441
+      internalID: 1515996977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-ButtonDeressUp
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 508
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a389632cc982647b6dacbacd621461
+      internalID: -1329270719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-Cham than
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 809
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724d36e6fa51e554bb448b6d8c14cbd2
+      internalID: -13927365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-IconAddMoreLimitModel
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 103
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a8bd8e99776774980ca6c1e569c199
+      internalID: 1011313039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-IconDeleteImedelyModel
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 139
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481744b0f3949e3468c39a40f78bfd5a
+      internalID: -1610021750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-IconDeleteModel
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1141
+        width: 114
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f01b75b26e69c4a9fa50d0e053f9ad
+      internalID: 893876292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-IconModel
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 39
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c47b9fc4e9f6a649a55a62cb5209763
+      internalID: -530647245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-Shadow char tren stage
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 155
+        width: 209
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d0975b95eb37540aea3298360858a7
+      internalID: 501094458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: View-bgIcon
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 9
+        width: 335
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78321016dabdd284a8bc8ac47250a134
+      internalID: 194795587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: View-icon_heart
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 682
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e6a78af456b52418911bbafee3cc8d
+      internalID: -329396505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: View-icon_Live
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 511
+        width: 230
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b000af51d833e4cb33b13ae8ff86ee
+      internalID: -1256736183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: View-icon_mat xem
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 7
+        width: 79
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61646fd9b8c3ecf4bb8463963c41a3bd
+      internalID: 186073697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-BgNotSelected
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 473
+        width: 130
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664325cd23da82940b970bfdcbb118e1
+      internalID: 736312208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-BgSelected
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 156
+        width: 130
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584dfcf99259732408e139496af828e2
+      internalID: 1293729678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-BgSelecting
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 86
+        width: 130
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c46d69f5f61fc040810c8e1ea8f618d
+      internalID: 1163302813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-Bong bong
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 862
+        width: 260
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51438b193c0bd9e49ad61b6fb1d9b1a4
+      internalID: 1212226620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-ButtonNo
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 399
+        width: 305
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ca5a09b4d508743ac54c36f33ad0b3
+      internalID: -2001308384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-ButtonYes
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 232
+        width: 304
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bfa9e3e5ea7954bae0fc41327d6ec7
+      internalID: 1148980098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-Icon_acc
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 1
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142bcb7d8639a3440b87f265917e2acb
+      internalID: -1246430588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-Icon_face
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 248
+        width: 92
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369ddf25e24a0da43971c7bb43fd9ef6
+      internalID: -1369035270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-Icon_hair
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 166
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fec23493ed9f947be4d7e8d2550945
+      internalID: 1851984829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-Icon_shirt
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 88
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e1457d0371ff44197be06639b5b0e9
+      internalID: -1472927890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-Icon_shoe
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 18
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d813e1fb242104792fc9310f9c61fb
+      internalID: -606512290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-Icon_skirt
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 55
+        width: 88
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772124e30e38a3943aa59d51c47bfb4a
+      internalID: 1645144720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-Layer 96
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 125
+        width: 146
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397255c70f75a5f4fa2ca0d8daa01cd0
+      internalID: 1220494921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesNoPlay-tick
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 78
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3509777527e21488c84e38c7333fd2
+      internalID: 1943433481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 60f5d54119161684386ee2bfb91daf21
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Comom-Header: -628298591
+      Comom-IconADS: 65187995
+      Comom-IconExit: 843831940
+      Comom-IconYellowButton: 1427822049
+      Comom-QuaBong: -1106796973
+      Comom-Ruybang: -1992028554
+      Comom-Star: -1867335523
+      Comom-finger_for_tutorial: -1549651114
+      Completed-Button_next: 834493603
+      Completed-Button_share: 130299030
+      Completed-Icon-co: 1104052622
+      Completed-Icon_back: 64825459
+      Completed-Icon_share: -2121571088
+      Loading: -2110054376
+      Loading-Layer 180 copy: 1529838271
+      Loading-Loading . . .: -1926986275
+      Loading-Rounded Rectangle 20: -140507410
+      Loading-Thanh tien trinh_full: -355874284
+      NativeAds-Ad: 1882131945
+      NativeAds-Button: 605758447
+      NativeAds-Polygon 3 copy 4: -865442531
+      OverlapCanvas-IconNoAds: 1593783794
+      OverlapCanvas-IconSetting: -449108849
+      PopUpLimitedItem-Bow: -1104791866
+      PopUpLimitedItem-ButtonClaim: -1857998098
+      PopUpLimitedItem-HeaderConner: -1986537779
+      PopUpLimitedItem-text-LIMITED ITEM: -706020967
+      PopUpLimitedItem-text-Nothanks: -961954
+      Rate-star: 1262851221
+      Rate-unselectStart: 1130722237
+      Setting-Button_Home: 268438789
+      Setting-Button_silent: -999983805
+      Setting-Button_sound music bt: -1627706612
+      Setting-icon_music: -526869489
+      Setting-icon_music silent: -1674420810
+      Setting-icon_sound: 901017735
+      Setting-icon_sound silent: 1155190534
+      Stage-BgBehindAlbum: -102662449
+      Stage-BgCountNumberModel: 1785607080
+      Stage-BgDeleteForcus: 196481859
+      Stage-BgMainAlbum: 1411222220
+      Stage-BgMiddle: 38973468
+      Stage-BgNumberModel: 1515996977
+      Stage-ButtonDeressUp: -1329270719
+      Stage-Cham than: -13927365
+      Stage-IconAddMoreLimitModel: 1011313039
+      Stage-IconDeleteImedelyModel: -1610021750
+      Stage-IconDeleteModel: 893876292
+      Stage-IconModel: -530647245
+      Stage-Shadow char tren stage: 501094458
+      View-bgIcon: 194795587
+      View-icon_Live: -1256736183
+      View-icon_heart: -329396505
+      View-icon_mat xem: 186073697
+      YesNoPlay-BgNotSelected: 736312208
+      YesNoPlay-BgSelected: 1293729678
+      YesNoPlay-BgSelecting: 1163302813
+      YesNoPlay-Bong bong: 1212226620
+      YesNoPlay-ButtonNo: -2001308384
+      YesNoPlay-ButtonYes: 1148980098
+      YesNoPlay-Icon_acc: -1246430588
+      YesNoPlay-Icon_face: -1369035270
+      YesNoPlay-Icon_hair: 1851984829
+      YesNoPlay-Icon_shirt: -1472927890
+      YesNoPlay-Icon_shoe: -606512290
+      YesNoPlay-Icon_skirt: 1645144720
+      YesNoPlay-Layer 96: 1220494921
+      YesNoPlay-tick: 1943433481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

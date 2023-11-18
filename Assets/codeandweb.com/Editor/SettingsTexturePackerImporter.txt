@@ -1,0 +1,20 @@
+version: 2
+tpsheetFileNames:
+- Assets/_Textures/Character/Face/Face.tpsheet
+- Assets/_Textures/Character/Shoes/Shoes.tpsheet
+- Assets/_Textures/Character/Skirt/Skirt.tpsheet
+- Assets/_Textures/UI/UI.tpsheet
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+textureFileNames:
+- Assets/_Textures/Character/Face/Face.png
+- Assets/_Textures/Character/Shoes/Shoes.png
+- Assets/_Textures/Character/Skirt/Skirt.png
+- Assets/_Textures/UI/UI.png
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+normalmapFileNames:
+- 
+- 
+- 
+- 
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+enableDebugOutput: 0
