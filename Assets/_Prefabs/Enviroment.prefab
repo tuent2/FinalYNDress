@@ -58,6 +58,8 @@ MonoBehaviour:
   YesOrNoValume: 1
   TapClip: {fileID: 8300000, guid: 8887831da507e4a4f8975d27a6879d55, type: 3}
   TapValume: 1
+  DressClip: {fileID: 8300000, guid: 1b9435ddfc9838c40b924984e54f964c, type: 3}
+  DressValume: 1
 --- !u!82 &7344351107333071570
 AudioSource:
   m_ObjectHideFlags: 0
@@ -163,6 +165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1161961357986421388}
+  - component: {fileID: 3434637403721278796}
   m_Layer: 0
   m_Name: AdsManager
   m_TagString: Untagged
@@ -185,6 +188,19 @@ Transform:
   m_Father: {fileID: 233416240114782064}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3434637403721278796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558449231522838927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7862aa512d4b7254e99061157b1965de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _adUnitId: ca-app-pub-9155677473466904/1167190206
 --- !u!1 &6472748268893334165
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,7 +234,7 @@ Transform:
   - {fileID: 2390905783521750764}
   - {fileID: 5393287045921611055}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6562619099307413777
 GameObject:
@@ -290,7 +306,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8033820146099176259}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2483065d0dfc73843b210ee5383817f9, type: 3}
   m_Name: 

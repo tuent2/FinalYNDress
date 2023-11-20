@@ -33,7 +33,7 @@ public class LoadingController : MonoBehaviour
         canvasGroup.DOFade(0.8f, 1f).OnComplete(() =>
         {
             canvasGroup.DOFade(1.0f, 0.5f);
-            LoadingImageObject.DOFillAmount(1f, 2f).OnComplete(() =>
+            LoadingImageObject.DOFillAmount(1f, 1f).OnComplete(() =>
             {
                 gameObject.SetActive(false);
                 onCompleteAction.Invoke();

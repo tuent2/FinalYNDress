@@ -708,15 +708,15 @@ public class YesNoPlayMananger : MonoBehaviour
     public void FinishChoiceItem()
     {
         GameManager.THIS.overlayCanvasController.buttonPanel.SetActive(false);
-        StartCoroutine(PlayCompleteSound());
+        SoundController.THIS.PlayBackGroundCompletedClip();
         UIYesNoPlay.THIS.ActionChangeWhenFinishChoiceItem();
         behindCharacterController.gameObject.SetActive(false);
         ItemInSideGame.SetActive(false);
         SelectingEffect.gameObject.SetActive(false);
         SelectedEffect.gameObject.SetActive(false);
        
-        cameraMain.DOOrthoSize(cameraMain.orthographicSize / 1.2f, 2f);
-        mainCharacterController.gameObject.transform.DOScale(mainCharacterController.gameObject.transform.localScale *1.2f,2f)
+        cameraMain.DOOrthoSize(cameraMain.orthographicSize / 1.2f, 1f);
+        mainCharacterController.gameObject.transform.DOScale(mainCharacterController.gameObject.transform.localScale *1.2f,1f)
             .OnComplete(() =>
             {
                 //mainCharacterController.PlayAnimationCharacter(0, "dance", true);

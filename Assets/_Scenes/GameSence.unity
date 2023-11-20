@@ -9992,18 +9992,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enviroment
       objectReference: {fileID: 0}
-    - target: {fileID: 6511593821899699539, guid: 1d7286253e7052e4198cc8c02187d6ab, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6525620057755360411, guid: 1d7286253e7052e4198cc8c02187d6ab, type: 3}
-      propertyPath: DressClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 1b9435ddfc9838c40b924984e54f964c, type: 3}
-    - target: {fileID: 6525620057755360411, guid: 1d7286253e7052e4198cc8c02187d6ab, type: 3}
-      propertyPath: BackGroundCompletedClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 714a53f2feb46fa48b6f73f1bf82861f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22445,7 +22433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1829799447
 Transform:
   m_ObjectHideFlags: 0

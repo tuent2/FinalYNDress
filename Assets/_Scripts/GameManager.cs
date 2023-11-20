@@ -44,16 +44,19 @@ public class GameManager : MonoBehaviour
     {
         
         SoundController.THIS.PlayInGameBGClip();
-
+        AdsOpenAppController.THIS.OnShowAppWithDelay(0.5f);
         if (PlayerPrefs.GetInt(DataGame.isDoneFirstTimePlay, 0) != 0)
         {
+            
             TurnOfCurrentPhase();
+            //AdsOpenAppController.THIS.OnShowAppWithDelay(0.5f);
             ChangePhaseStage();
             
         }
         else
         {
             TurnOfCurrentPhase();
+            //AdsOpenAppController.THIS.OnShowAppWithDelay(0.5f);
             ChangePhaseYesNoPlay();
         }
     }

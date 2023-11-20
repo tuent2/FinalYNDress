@@ -70,7 +70,7 @@ public class UIYesNoPlay : MonoBehaviour
   
     private IEnumerator OpenViewSence()
     {
-        yield return new WaitForSeconds(1.60f);
+        yield return new WaitForSeconds(0.60f);
         Flash.gameObject.SetActive(true);
         Flash.Play("ChangeToView");
         yield return new WaitForSeconds(0.95f);
