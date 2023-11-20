@@ -1,0 +1,17 @@
+G-man_Toilet.png
+size:884,404
+filter:Linear,Linear
+pma:true
+Body
+bounds:2,4,397,556
+offsets:1,1,399,558
+rotate:90
+Head
+bounds:560,165,191,236
+offsets:1,1,193,238
+Neck
+bounds:753,155,126,246
+light_vang
+bounds:560,2,161,162
+offsets:9,14,172,190
+rotate:90

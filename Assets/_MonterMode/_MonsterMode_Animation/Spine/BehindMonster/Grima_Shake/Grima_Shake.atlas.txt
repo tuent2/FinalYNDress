@@ -1,0 +1,31 @@
+Grima_Shake.png
+size:839,540
+filter:Linear,Linear
+pma:true
+Body
+bounds:2,169,333,369
+Hand_L
+bounds:337,302,269,236
+Hand_R
+bounds:2,26,327,141
+Head
+bounds:608,315,220,223
+Leg_L
+bounds:337,111,189,268
+rotate:90
+Leg_R
+bounds:608,45,189,268
+eye 1
+bounds:331,2,119,52
+eye 2
+bounds:476,54,124,55
+mat nham1
+bounds:799,272,41,38
+rotate:90
+mat nham2
+bounds:799,272,41,38
+rotate:90
+mouth 1
+bounds:331,56,143,53
+mouth 2
+bounds:452,4,145,48

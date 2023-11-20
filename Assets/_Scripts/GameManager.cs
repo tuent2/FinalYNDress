@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     {
         
         SoundController.THIS.PlayInGameBGClip();
-        AdsOpenAppController.THIS.OnShowAppWithDelay(0.5f);
+        AdsOpenAppController.THIS.OnShowOpenAppWithEndOfFrame();
         if (PlayerPrefs.GetInt(DataGame.isDoneFirstTimePlay, 0) != 0)
         {
             

@@ -140,6 +140,17 @@ public class AdsOpenAppController : MonoBehaviour
         ShowAppOpenAd();
     }
 
+    public void OnShowOpenAppWithEndOfFrame()
+    {
+        StartCoroutine(DelayFrameShowAds());
+    }
+
+    IEnumerator DelayFrameShowAds()
+    {
+        yield return new WaitForEndOfFrame();
+        appOpenAd.Show();
+    }
+
     public void ShowAppOpenAd()
     {
         if (PlayerPrefs.GetInt("removeAds", 0) == 1)

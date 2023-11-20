@@ -1,0 +1,39 @@
+Banban_Mommy.png
+size:484,500
+filter:Linear,Linear
+pma:true
+Body
+bounds:255,20,134,252
+Hand_L
+bounds:2,180,163,318
+Hand_R
+bounds:167,274,296,113
+Head
+bounds:2,8,170,251
+rotate:90
+LD1
+bounds:214,249,23,21
+rotate:90
+LD2
+bounds:214,249,23,21
+rotate:90
+Leg_L
+bounds:167,389,109,306
+rotate:90
+Leg_R
+bounds:167,389,109,306
+rotate:90
+eye 1_1
+bounds:391,214,58,58
+eye 1_2
+bounds:391,214,58,58
+eye 2
+bounds:391,72,140,49
+rotate:90
+mat nham
+bounds:255,2,134,16
+mouth 1
+bounds:167,180,92,45
+rotate:90
+mouth 2
+bounds:391,22,91,48

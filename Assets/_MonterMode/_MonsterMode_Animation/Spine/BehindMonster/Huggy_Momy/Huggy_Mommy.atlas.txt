@@ -1,0 +1,33 @@
+Huggy_Mommy.png
+size:490,523
+filter:Linear,Linear
+pma:true
+Body
+bounds:2,2,158,258
+Group 1
+bounds:162,9,263,208
+Hand_L
+bounds:2,262,70,334
+rotate:90
+Hand_R
+bounds:344,219,302,135
+rotate:90
+Leg_L
+bounds:2,429,92,340
+rotate:90
+Leg_R
+bounds:2,334,93,338
+rotate:90
+eye 1
+bounds:162,228,122,32
+eye 2
+bounds:457,98,96,27
+rotate:90
+eye_Close
+bounds:427,10,107,13
+rotate:90
+mouth 1
+bounds:427,196,61,21
+mouth 2
+bounds:427,119,75,28
+rotate:90

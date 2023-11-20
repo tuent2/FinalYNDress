@@ -1,0 +1,34 @@
+TV_Woman.png
+size:1290,198
+filter:Linear,Linear
+pma:true
+Body
+bounds:238,36,160,265
+rotate:90
+Hand_L
+bounds:653,82,114,324
+rotate:90
+Hand_R
+bounds:979,91,294,105
+Head
+bounds:2,20,234,176
+Leg_L
+bounds:973,4,76,315
+rotate:90
+Leg_R
+bounds:653,4,76,318
+rotate:90
+Vay
+bounds:505,70,146,126
+eye 1
+bounds:238,2,104,32
+eye 2
+bounds:505,29,106,39
+mat nham
+bounds:1275,84,112,10
+rotate:90
+mouth 1
+bounds:344,13,58,21
+mouth 2
+bounds:613,31,37,36
+rotate:90

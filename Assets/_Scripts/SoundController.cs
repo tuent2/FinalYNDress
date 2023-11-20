@@ -27,9 +27,9 @@ public class SoundController : MonoBehaviour
     [Space]
     public AudioClip DressClip;
     [SerializeField] [Range(0f, 1f)] float DressValume = 1f;
-    //[Space]
-    //public AudioClip[] NotSelectedClip;
-    //[SerializeField] [Range(0f, 1f)] float NotSelectedValume = 1f;
+    [Space]
+    public AudioClip[] NotSelectedClip;
+    [SerializeField] [Range(0f, 1f)] float NotSelectedValume = 1f;
 
     private void Awake()
     {
@@ -128,14 +128,14 @@ public class SoundController : MonoBehaviour
         }
     }
 
-    //public void PlayNotSelectedClip()
-    //{
-    //    if (PlayerPrefs.GetInt("SFX", 1) == 1)
-    //    {
-    //        int currentTrackIndex = Random.Range(0, NotSelectedClip.Length);
-    //        playClip(NotSelectedClip[currentTrackIndex], NotSelectedValume);
-    //    }
-    //}
+    public void PlayNotSelectedClip()
+    {
+        if (PlayerPrefs.GetInt("SFX", 1) == 1)
+        {
+            int currentTrackIndex = Random.Range(0, NotSelectedClip.Length);
+            playClip(NotSelectedClip[currentTrackIndex], NotSelectedValume);
+        }
+    }
 
 
 

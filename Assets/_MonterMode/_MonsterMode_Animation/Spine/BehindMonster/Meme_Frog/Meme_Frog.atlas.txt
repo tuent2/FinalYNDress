@@ -1,0 +1,33 @@
+Meme_Frog.png
+size:864,559
+filter:Linear,Linear
+pma:true
+Body
+bounds:2,218,256,339
+Hand_L
+bounds:260,229,256,328
+Hand_R
+bounds:518,409,324,148
+Head
+bounds:2,2,262,214
+Leg_L
+bounds:266,29,198,259
+rotate:90
+Leg_R
+bounds:603,209,198,259
+rotate:90
+eye 1
+bounds:600,10,197,95
+rotate:90
+eye 2
+bounds:697,19,188,81
+rotate:90
+mat nham
+bounds:780,19,188,81
+rotate:90
+mouth 1
+bounds:527,62,193,71
+rotate:90
+mouth 2
+bounds:518,257,150,83
+rotate:90

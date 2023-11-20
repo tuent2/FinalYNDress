@@ -1,0 +1,43 @@
+Sheep.png
+size:1075,347
+filter:Linear,Linear
+pma:true
+Hand_L
+bounds:505,107,182,238
+Hand_R
+bounds:354,81,264,149
+rotate:90
+Head
+bounds:916,2,129,157
+Leg_L
+bounds:292,71,60,274
+Leg_R
+bounds:300,2,67,271
+rotate:90
+Neck
+bounds:689,111,234,225
+rotate:90
+Tail1
+bounds:643,15,90,60
+rotate:90
+Tail2
+bounds:705,22,87,57
+rotate:90
+eye 1
+bounds:573,2,103,68
+rotate:90
+eye 2
+bounds:39,4,105,38
+lông sau đầu
+bounds:916,161,184,157
+rotate:90
+lông thân
+bounds:2,44,288,301
+mat nham
+bounds:146,4,104,38
+mouth 1
+bounds:2,3,35,39
+mouth 2
+bounds:252,9,46,33
+tóc trước đầu
+bounds:764,39,137,70

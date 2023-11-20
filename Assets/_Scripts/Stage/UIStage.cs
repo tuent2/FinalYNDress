@@ -7,6 +7,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
 using Lean.Touch;
+using UnityEngine.SceneManagement;
 public class UIStage : MonoBehaviour
 {
    // public bool isStateScores;
@@ -18,6 +19,7 @@ public class UIStage : MonoBehaviour
     [SerializeField] TextMeshProUGUI valueMonsterInAlbumText;
     [SerializeField] EventTrigger monsterSpawnEventTrigger;
     [SerializeField] Button DressUpButton;
+    [SerializeField] Button MonsterModeButton;
     [SerializeField] Button AddNewLimmitedModel;
     [SerializeField] Sprite NotFullModelSprite;
     [SerializeField] Sprite FullModelSprite;
@@ -69,6 +71,12 @@ public class UIStage : MonoBehaviour
 
         AddNewLimmitedModel.onClick.AddListener(()=> {
             GameManager.THIS.uIStage.StageLimitedPopUp.SetActive(true);
+        });
+
+        MonsterModeButton.onClick.AddListener(()=> {
+            LoadingController.THIS.LoadingAction(() => {
+                SceneManager.LoadScene(1);
+            });
         });
 
     }
