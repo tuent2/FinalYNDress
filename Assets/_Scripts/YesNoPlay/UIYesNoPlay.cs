@@ -18,6 +18,7 @@ public class UIYesNoPlay : MonoBehaviour
     [SerializeField] GameObject TutorialView;
     [SerializeField] Button TabButton;
     [SerializeField] TextMeshProUGUI YesOrNoText;
+    
 
     public Transform itemInpopUp;
 

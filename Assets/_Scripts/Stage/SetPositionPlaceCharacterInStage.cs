@@ -39,7 +39,7 @@ public class SetPositionPlaceCharacterInStage : MonoBehaviour
         }
 
         CheckInCollider();
-        GameManager.THIS.stageManager.UpdateUIOfLimited();
+        //GameManager.THIS.stageManager.UpdateUIOfLimited();
     }
 
     private void CheckInCollider()

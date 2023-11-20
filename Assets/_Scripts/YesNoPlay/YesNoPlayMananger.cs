@@ -198,9 +198,22 @@ public class YesNoPlayMananger : MonoBehaviour
         if (numberPlay == 0 || numberPlay == 1) 
         {
             mainCharacterController.RandomMainCharacterSkin(numberPlay);
+            if (numberPlay == 1)
+            {
+                GameManager.THIS.overlayCanvasController.RateUsCanvas.SetActive(true);
+            }
         }
         else
         {
+            
+            int abc = PlayerPrefs.GetInt(DataGame.isRating, 0);
+            numberPlay = PlayerPrefs.GetInt("NumberPlay", 1);
+            if (abc == 0 && numberPlay % 15 == 0)
+            {
+                GameManager.THIS.overlayCanvasController.RateUsCanvas.SetActive(true);
+            }
+
+
             int BaseSkin = UnityEngine.Random.Range(0, 2);
             int hairIndex = UnityEngine.Random.Range(0, hairSprite.Count);
             int shirtIndex = UnityEngine.Random.Range(0, shirtSprite.Count);
@@ -246,11 +259,15 @@ public class YesNoPlayMananger : MonoBehaviour
         {
             ItemInSideGame.SetActive(true);
         }
+
+        numberPlay ++;
+        PlayerPrefs.SetInt(DataGame.NumberPlay, numberPlay);
+
+
         mainCharacterController.PlayAnimationCharacter(0, "Idle", true);
         mainCharacterController.transform.localScale = new Vector3(1f, 1f, 1f);
         mainCharacterController.transform.position = new Vector2(0f, (-6.42f-2.72f));
-        numberPlay = numberPlay + 1;
-        PlayerPrefs.SetInt(DataGame.NumberPlay, numberPlay + 1);
+        
         float randomValue = UnityEngine.Random.Range(0f, 1f);
         if (randomValue > 0)
         {

@@ -13,7 +13,7 @@ public class StageLimitedPopUpController : MonoBehaviour
             gameObject.SetActive(false);
         });
         AddMoreLimit.onClick.AddListener(() => {
-            PlayerPrefs.SetInt(DataGame.countMonsterOnAlbumMax, PlayerPrefs.GetInt(DataGame.countMonsterOnAlbumMax) + 2);
+            PlayerPrefs.SetInt(DataGame.countMonsterOnAlbumMax, PlayerPrefs.GetInt(DataGame.countMonsterOnAlbumMax,3) + 2);
             GameManager.THIS.stageManager.UpdateUIOfLimited();
             gameObject.SetActive(false);
         });

@@ -8,6 +8,7 @@ public class OverlayCanvasController : MonoBehaviour
     [SerializeField] Button settingButton;
     public  Button iapButton;
     [SerializeField] SettingPanelController settingPanel;
+    public GameObject RateUsCanvas;
     void Start()
     {
         settingButton.onClick.AddListener(()=> {

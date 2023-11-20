@@ -253,10 +253,13 @@ public class StageManager : MonoBehaviour
             
             uIStage.ShowMonsterSpawn(characterDatasDonotInStage, (baseEventData, monsterData) =>
             {
-                
+                Debug.Log(1234);
                 this.characterDataDragging = monsterData;
                 characterManagerDragging = AddMonster(monsterData);
-                characterManagerDragging.transform.position =  new Vector3 (0,0,0);
+                
+                characterManagerDragging.transform.position = new Vector2(uIStage.CharacterDoNotDragPanel.transform.position.x-3.5f, uIStage.CharacterDoNotDragPanel.transform.position.y);
+                
+                //characterManagerDragging.transform.position =  uIStage.CharacterDoNotDragPanel.transform.position;
                 if (LeanTouch.Fingers.Count == 0)
                 {
                     return;
@@ -275,7 +278,8 @@ public class StageManager : MonoBehaviour
                 {
                     selectableByFinger.SelectSelf(finger);
                 }
-                //Debug.Log(123);
+                Debug.Log(characterManagerDragging.transform.position);
+                Debug.Log(uIStage.CharacterDoNotDragPanel.transform.position);
             });
            
         }
@@ -322,6 +326,7 @@ public class StageManager : MonoBehaviour
             characterDatasDonotInStage.AddFront(characterManagerDragging.characterData);
             //textScoreMonsters.Remove(characterManagerDragging.GetComponent<TextScoreMonster>());
             characterManagerDragging.gameObject.SetActive(false);
+           
         }
         else
         {
