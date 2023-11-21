@@ -21,7 +21,7 @@ public class SmashAskCanvasController : MonoBehaviour
         Time.timeScale = 1f;
         gameObject.SetActive(false);
         SmashCharacterManager.THIS.ResetTransform();
-        //IronSouceController.THIS.ShowInterstitialAds();
+        AdsIronSourceController.THIS.ShowInterstitialAds();
 
     }
 
@@ -30,7 +30,7 @@ public class SmashAskCanvasController : MonoBehaviour
         Time.timeScale = 1f;
         SmashController.THIS.HideAllTrap();
         gameObject.SetActive(false);
-        //IronSouceController.THIS.ShowInterstitialAds();
+        AdsIronSourceController.THIS.ShowInterstitialAds();
         SmashCharacterManager.THIS.UltimateShow();
         
     }

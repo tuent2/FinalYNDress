@@ -387,8 +387,8 @@ public class StageManager : MonoBehaviour
     public void Show()
     {
         containerObject.SetActive(true);
-       
-            //GameManager.THIS.uIStage.Show();
+
+        GameManager.THIS.uIStage.CheckUIOfMonsterMode();
         SetStateControllInAlbum(true);
         UpdateStateStage();
     }

@@ -42,11 +42,11 @@ public class LoadingController : MonoBehaviour
         canvasGroup.DOFade(0.8f, 1f).OnComplete(() =>
         {
             canvasGroup.DOFade(1.0f, 0.5f);
-            LoadingImageObject.DOFillAmount(1f, 1f).OnComplete(() =>
+            LoadingImageObject.DOFillAmount(0.3f, 0.3f).OnComplete(() =>
             {
                 
                 onCompleteAction.Invoke();
-
+                LoadingImageObject.DOFillAmount(1f, 0.8f);
                 StartCoroutine(WaitToTurnOffLoading());
             }); ;
 
@@ -62,7 +62,7 @@ public class LoadingController : MonoBehaviour
 
     IEnumerator WaitToTurnOffLoading()
     {
-        yield return  new WaitForSeconds(0.75f);
+        yield return  new WaitForSeconds(1f);
         gameObject.SetActive(false);
     }
 

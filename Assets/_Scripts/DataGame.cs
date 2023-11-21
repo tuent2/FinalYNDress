@@ -24,7 +24,7 @@ public class DataGame : MonoBehaviour
     //---------------------------------------------Stage--------------------------------------------------//
     public static string pathCharacterDataSave = Application.persistentDataPath + "/CharactersData.data";
     public static string countMonsterOnAlbumMax = "countMonsterOnAlbumMax";
-
+    public static string isOpenMonsterMode = "isOpenMonsterMode";
     //---------------------------------------------IronSoure--------------------------------------------------//
     //---------------------------------------------FireBase--------------------------------------------------//
 }

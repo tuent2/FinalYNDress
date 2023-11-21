@@ -20,6 +20,8 @@ public class UIStage : MonoBehaviour
     [SerializeField] EventTrigger monsterSpawnEventTrigger;
     [SerializeField] Button DressUpButton;
     [SerializeField] Button MonsterModeButton;
+   
+    [SerializeField] GameObject LockOfMonsterPlayMode;
     [SerializeField] Button AddNewLimmitedModel;
     [SerializeField] Sprite NotFullModelSprite;
     [SerializeField] Sprite FullModelSprite;
@@ -28,6 +30,7 @@ public class UIStage : MonoBehaviour
     public GameObject CharacterDoNotDragPanel;
     public GameObject StageLimitedPopUp;
     public ComfirmDeleteModelPopup ComfirmDeletePopup;
+    public PopUpMonsterModeController popUpMonsterModeController;
     void Start()
     {
         EventTrigger.Entry entryBeginDrag = new EventTrigger.Entry();
@@ -74,10 +77,38 @@ public class UIStage : MonoBehaviour
         });
 
         MonsterModeButton.onClick.AddListener(()=> {
-            LoadingController.THIS.LoadingAction(() => {
-                SceneManager.LoadScene(1);
-            });
+            if (PlayerPrefs.GetInt(DataGame.NumberPlay, 0) <= 3)
+            {
+                ComonPopUpController.THIS.Container.SetActive(true);
+                ComonPopUpController.THIS.inforText.text = "Play Play Dress Up " + (3 - PlayerPrefs.GetInt("NumberPlay", 0)) + " times to unlock";
+            }
+            else
+            {
+                LoadingController.THIS.LoadingAction(() => {
+                    SceneManager.LoadScene(1);
+                });
+            }
+            
         });
+
+    }
+
+    public void CheckUIOfMonsterMode()
+    {
+        if (PlayerPrefs.GetInt(DataGame.NumberPlay, 0) <= 3)
+        {
+            return;
+        }
+        else
+        {   
+            if (PlayerPrefs.GetInt(DataGame.isOpenMonsterMode, 0) == 0 )
+            {
+                popUpMonsterModeController.gameObject.SetActive(true);
+
+                
+            }
+            LockOfMonsterPlayMode.SetActive(false);
+        }
 
     }
 

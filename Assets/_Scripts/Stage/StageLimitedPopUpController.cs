@@ -13,8 +13,15 @@ public class StageLimitedPopUpController : MonoBehaviour
             gameObject.SetActive(false);
         });
         AddMoreLimit.onClick.AddListener(() => {
-            PlayerPrefs.SetInt(DataGame.countMonsterOnAlbumMax, PlayerPrefs.GetInt(DataGame.countMonsterOnAlbumMax,3) + 2);
-            GameManager.THIS.stageManager.UpdateUIOfLimited();
+            if ( PlayerPrefs.GetInt(DataGame.countMonsterOnAlbumMax, 3)  >= 15)
+            {
+                ComonPopUpController.THIS.Container.SetActive(true);
+                ComonPopUpController.THIS.inforText.text = "Cannot increase the limit any further";
+                gameObject.SetActive(false);
+                return;
+            }
+            AdsIronSourceController.THIS.TypeReward = 5;
+            AdsIronSourceController.THIS.ShowRewardAds();
             gameObject.SetActive(false);
         });
 

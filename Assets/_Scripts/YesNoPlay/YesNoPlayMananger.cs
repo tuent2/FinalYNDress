@@ -179,6 +179,33 @@ public class YesNoPlayMananger : MonoBehaviour
             secondSkin = SkinToChange.Base;
         }
     }
+    [Button("TestSkin")]
+    public void TestSkinCharacter()
+    {
+        int BaseSkin = UnityEngine.Random.Range(0, 2);
+        int hairIndex = UnityEngine.Random.Range(0, hairSprite.Count);
+        int shirtIndex = UnityEngine.Random.Range(0, shirtSprite.Count);
+        int skirtIndex = UnityEngine.Random.Range(0, skirtSprite.Count);
+        int accIndenx = UnityEngine.Random.Range(0, accSprite.Count);
+        int shoeIndex = UnityEngine.Random.Range(0, shoeSprite.Count);
+        int faceIndex = UnityEngine.Random.Range(0, faceSprite.Count);
+
+
+
+        
+
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Base, (BaseSkin == 0) ? "DaDen" : "DaTrang");
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Hair, hairSkin[hairIndex]);
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shirt, shirtSkin[shirtIndex]);
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Skirt, skirtSkin[skirtIndex]);
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Acc, accSkin[accIndenx]);
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shoe, shoeSkin[shoeIndex]);
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Face, faceSkin[faceIndex]);
+        mainCharacterController.UpdateCharacterSkin();
+
+
+       
+    }
 
     public void SetUpToPlay()
     {
@@ -207,7 +234,7 @@ public class YesNoPlayMananger : MonoBehaviour
         {
             
             int abc = PlayerPrefs.GetInt(DataGame.isRating, 0);
-            numberPlay = PlayerPrefs.GetInt("NumberPlay", 1);
+            numberPlay = PlayerPrefs.GetInt(DataGame.NumberPlay, 0);
             if (abc == 0 && numberPlay % 15 == 0)
             {
                 GameManager.THIS.overlayCanvasController.RateUsCanvas.SetActive(true);
@@ -737,11 +764,11 @@ public class YesNoPlayMananger : MonoBehaviour
         
         mainCharacterController.PlayAnimationCharacter(0, "Dance", true);
         mainCharacterController.gameObject.transform.position = new Vector3(0f, -4.7f, 0f);
-        mainCharacterController.gameObject.transform.DOScale(new Vector3(0.75f, 0.75f, 0.75f), 2.2f);
-        cameraMain.DOOrthoSize(cameraMain.orthographicSize * 1.2f, 2.2f);
-        yield return new WaitForSeconds(0.8f);
+        mainCharacterController.gameObject.transform.DOScale(new Vector3(0.75f, 0.75f, 0.75f), 0f);
+        yield return new WaitForSeconds(0.35f);
+        cameraMain.DOOrthoSize(cameraMain.orthographicSize * 1.2f, 2.5f);
+        yield return new WaitForSeconds(0.2f);
         SenceChangeEffect.Play();
-        yield return new WaitForSeconds(0.7f);
         UIYesNoPlay.THIS.PlayIEnumPlayTabToGet();
     }
 

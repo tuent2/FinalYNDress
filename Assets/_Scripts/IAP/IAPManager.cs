@@ -21,6 +21,7 @@ public class IAPManager : MonoBehaviour
         {
             IAPPurchaseString(productId);
             Destroy(gameObject);
+            
             for (int i = 0; i < native.Length; i++)
             {
                 if (native[i] == null)
@@ -39,8 +40,8 @@ public class IAPManager : MonoBehaviour
 
     public void OnPurchaseFailed(Product product, PurchaseFailureReason failureReason)
     {
-       // IAPRespond.THIS.RepondText.text = product + "failed because: " + failureReason + "";
-        //IAPRespond.THIS.gameObject.SetActive(true);
+        ComonPopUpController.THIS.inforText.text = product + "failed because: " + failureReason + "";
+        ComonPopUpController.THIS.gameObject.SetActive(true);
     }
 
     public void IAPPurchaseString(string productID)
@@ -48,9 +49,9 @@ public class IAPManager : MonoBehaviour
         switch (productID)
         {
             case "com.dressup.makeup.leftright.removeads":
-                //IronSouceController.THIS.DestroyBanner();
+                AdsIronSourceController.THIS.DestroyBanner();
 
-                //PlayerPrefs.SetInt("removeAds", 1);
+                PlayerPrefs.SetInt("removeAds", 1);
                 //FireBaseAnalysticsController.THIS.FireEvent("REMOVEADS_SUCCESS");
                 break;
         }

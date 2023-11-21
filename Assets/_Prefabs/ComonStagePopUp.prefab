@@ -203,7 +203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2119272378, guid: 5fc5b54842c6ce04d973eecbd5e6bc9f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3b17c39cdcdd051479bd15eeaa0b9aaa, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -598,14 +598,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3158439267771810425}
-  - component: {fileID: 4853234598480572328}
   m_Layer: 0
   m_Name: ComonStagePopUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3158439267771810425
 RectTransform:
   m_ObjectHideFlags: 0
@@ -628,20 +627,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4853234598480572328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4390402215650845758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b25b36e5ed7eef4bb54943dad602d42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CloseButton: {fileID: 4519124181322507266}
-  OkButton: {fileID: 4826784074393676755}
 --- !u!1 &5841349044887060068
 GameObject:
   m_ObjectHideFlags: 0

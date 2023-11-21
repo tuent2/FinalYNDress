@@ -32,7 +32,7 @@ public class SettingPanelController : MonoBehaviour
         
         SetSFX = PlayerPrefs.GetInt("SFX", 1);
         SetBGM = PlayerPrefs.GetInt("BGM", 1);
-        UISetting();
+       
 
     }
 
@@ -47,16 +47,16 @@ public class SettingPanelController : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    private void UISetting()
+    public  void UISetting()
     {
-        //if (GameManager.THIS.phaseGame == PhaseGame.YesNoPlay)
-        //{
-        //    HomeButton.interactable = true;
-        //}
-        //if (GameManager.THIS.phaseGame == PhaseGame.Stage)
-        //{
-        //    HomeButton.interactable = false;
-        //}
+        if (GameManager.THIS.phaseGame == PhaseGame.YesNoPlay)
+        {
+            HomeButton.interactable = true;
+        }
+        if (GameManager.THIS.phaseGame == PhaseGame.Stage)
+        {
+            HomeButton.interactable = false;
+        }
         if (SetSFX == 1)
         {
             SFX_Bg.sprite = bg_OnImage;
@@ -145,7 +145,7 @@ public class SettingPanelController : MonoBehaviour
         int numberPlay = PlayerPrefs.GetInt("NumberPlay", 1);
         if (numberPlay >= 2)
         {
-            //IronSouceController.THIS.ShowInterstitialAds();
+            AdsIronSourceController.THIS.ShowInterstitialAds();
         }
 
         gameObject.SetActive(false);

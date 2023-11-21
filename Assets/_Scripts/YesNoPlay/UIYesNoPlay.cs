@@ -116,7 +116,7 @@ public class UIYesNoPlay : MonoBehaviour
              
 
                 YesNoPlayMananger.THIS.mainCharacterController.PlayAnimationCharacter(0, "No", true);
-                YesNoPlayMananger.THIS.mainCharacterController.PlayAnimationCharacter(0, "Idle", true, 1.066f);
+                YesNoPlayMananger.THIS.mainCharacterController.PlayAnimationCharacter(0, "Idle", true, 0.5f);
                 YesNoPlayMananger.THIS.behindCharacterController.PlayAnimationCharacter(0, "No", true, 1f);
                 SoundController.THIS.PlayNoClip();
                 //GameManager.THIS.ChangeCurrentSkin(false);
@@ -130,12 +130,13 @@ public class UIYesNoPlay : MonoBehaviour
 
         delegate
         {
-            ChangeStateOfButton(false);
-            YesNoPlayMananger.THIS.RandomSkinInSideBuble();
 
+            GameManager.THIS.uIYesNoPlay.ChangeStateOfButton(false);
+            YesNoPlayMananger.THIS.RandomSkinInSideBuble();
+            StartCoroutine(SetButtonCanSelect());
             //FireBaseAnalysticsController.THIS.FireEvent("ADS_REWARD_CLICK");
-            //IronSouceController.THIS.TypeReward = 1;
-            //IronSouceController.THIS.ShowRewardAds();
+            //AdsIronSourceController.THIS.TypeReward = 4;
+            //AdsIronSourceController.THIS.ShowRewardAds();
         }
         ); ; ;
         TabButton.onClick.AddListener(
@@ -148,6 +149,12 @@ public class UIYesNoPlay : MonoBehaviour
         ); ; ;
 
 
+    }
+
+    private IEnumerator SetButtonCanSelect()
+    {
+        yield return new WaitForSeconds(2.5f);
+        GameManager.THIS.uIYesNoPlay.ChangeStateOfButton(true);
     }
 
     public void SetupForYNPlay()

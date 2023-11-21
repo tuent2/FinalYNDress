@@ -31,7 +31,7 @@ public class MonsterModeGameManager : MonoBehaviour
     private GameObject behindObject;
 
     public GameObject ChairObject;
-    public Canvas RateCanvas;
+    
     public Button YesButton;
     public Button NoButton;
     public Button ChangeOptionButton;
@@ -415,22 +415,9 @@ public class MonsterModeGameManager : MonoBehaviour
         SoundController.THIS.PlayInGameBGClip();
         numberPlay = PlayerPrefs.GetInt("NumberPlay", 0);
         numberPlay++;
-        if (numberPlay == 2)
-        {
-           // PlayerPrefs.SetInt("NumberPlay", numberPlay + 1);
-            RateCanvas.gameObject.SetActive(true);
-        }
-        else
-        {
-            PlayerPrefs.SetInt("NumberPlay", numberPlay + 1);
-            int abc = PlayerPrefs.GetInt("isRating", 0);
-            numberPlay = PlayerPrefs.GetInt("NumberPlay", 1);
-            if (abc == 0 && numberPlay % 15 == 0)
-            {
-                RateCanvas.gameObject.SetActive(true);
-            }
-        }
-        
+        PlayerPrefs.SetInt(DataGame.NumberPlay, numberPlay);
+
+
         IngameCanvas.SetActive(true);
   
         MainMonterController.THIS.RandomCharacter();
@@ -710,7 +697,7 @@ public class MonsterModeGameManager : MonoBehaviour
                             currentSkin = SkinToChange.Head;
                             CountYN = 1;
                             //GameManager.THIS.IngameCanvas.SetActive(false);
-                            //WinGame();
+                            WinGame();
                             break;
                         }
                         else

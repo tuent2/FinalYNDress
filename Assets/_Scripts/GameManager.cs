@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     public CompleteManager completeManager;
     [Header("Character")]
     public MainCharacterController mainCharacterController;
-
+    
     private void Awake()
     {
         THIS = this;
@@ -146,6 +146,7 @@ public class GameManager : MonoBehaviour
                 uIStage.gameObject.SetActive(true);
                 //stageManager.gameObject.SetActive(true);
                 stageManager.Show();
+                
                 overlayCanvasController.buttonPanel.SetActive(true);
                 break;
             default:

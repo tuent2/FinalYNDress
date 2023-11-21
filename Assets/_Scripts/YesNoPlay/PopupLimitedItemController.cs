@@ -25,13 +25,23 @@ public class PopupLimitedItemController : MonoBehaviour
 
     public void ClickClaimpButton()
     {
-        YesNoPlayMananger.THIS.behindCharacterController.MoveLimitedItemToTarget(itemImage.sprite);
+        AdsIronSourceController.THIS.TypeReward = 6;
+        AdsIronSourceController.THIS.ShowRewardAds();
+        gameObject.SetActive(false);
+
+        //YesNoPlayMananger.THIS.behindCharacterController.MoveLimitedItemToTarget(itemImage.sprite);
         //gameobjectCanvasGroup.DOFade(0, 2f).OnComplete(()=> {
         //    gameObject.SetActive(false);
         //    gameobjectCanvasGroup.alpha = 1f;
         //});
         gameObject.SetActive(false);
         
+    }
+
+    public void ActionAfterWatchAds()
+    {
+        YesNoPlayMananger.THIS.behindCharacterController.MoveLimitedItemToTarget(itemImage.sprite);
+        gameObject.SetActive(false);
     }
 
     
