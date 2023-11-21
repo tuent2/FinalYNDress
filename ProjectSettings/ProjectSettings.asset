@@ -256,8 +256,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: user.keystore'
-  AndroidKeyaliasName: phoenix2023
+  AndroidKeystoreName: C:/Users/Gland.vn/Desktop/GitTuent/FinalYNMonster/phoenix/user.keystore
+  AndroidKeyaliasName: phoenix
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

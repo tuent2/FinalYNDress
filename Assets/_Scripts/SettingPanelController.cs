@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 public class SettingPanelController : MonoBehaviour
 {
     public Button SFXButton;
@@ -28,27 +29,34 @@ public class SettingPanelController : MonoBehaviour
 
     void Start()
     {
-        HomeButton.onClick.AddListener(() => {
-            GameManager.THIS.TurnOfCurrentPhase();
-            GameManager.THIS.ChangePhaseStage();
-        });
+        
         SetSFX = PlayerPrefs.GetInt("SFX", 1);
         SetBGM = PlayerPrefs.GetInt("BGM", 1);
         UISetting();
 
     }
 
-   
+    public void ClickHomeButtonFromSence0()
+    {
+        GameManager.THIS.TurnOfCurrentPhase();
+        GameManager.THIS.ChangePhaseStage();
+    }
+    
+    public void ClickHomeButtonFromSence1()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     private void UISetting()
     {
-        if (GameManager.THIS.phaseGame == PhaseGame.YesNoPlay)
-        {
-            HomeButton.interactable = true;
-        }
-        if (GameManager.THIS.phaseGame == PhaseGame.Stage)
-        {
-            HomeButton.interactable = false;
-        }
+        //if (GameManager.THIS.phaseGame == PhaseGame.YesNoPlay)
+        //{
+        //    HomeButton.interactable = true;
+        //}
+        //if (GameManager.THIS.phaseGame == PhaseGame.Stage)
+        //{
+        //    HomeButton.interactable = false;
+        //}
         if (SetSFX == 1)
         {
             SFX_Bg.sprite = bg_OnImage;
@@ -129,27 +137,7 @@ public class SettingPanelController : MonoBehaviour
         }
     }
 
-    public void ClickHomeButton()
-    {
-        SoundController.THIS.PlayTabClip();
-        LoadingController.THIS.gameObject.SetActive(true);
 
-        LoadingController.THIS.LoadingAction(() =>
-        {
-            //StartCoroutine(WaitChangeSence());
-            //SceneManager.LoadScene(0);
-            //LoadingController.THIS.Close();
-            StartCoroutine(WaitChangeSence());
-        });
-    }
-
-
-    private IEnumerator WaitChangeSence()
-    {
-        yield return new WaitForSeconds(1f);
-
-        //MainMenuCanvasController.THIS.gameObject.SetActive(true);
-    }
 
     public void ClickOutSettingButton()
     {

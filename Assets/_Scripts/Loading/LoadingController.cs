@@ -14,8 +14,17 @@ public class LoadingController : MonoBehaviour
     private void Awake()
     {
 
-       THIS = this;
-        
+        if (THIS != null)
+        {
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
+        else
+        {
+            THIS = this;
+            DontDestroyOnLoad(gameObject);
+        }
+
     }
 
     private void Start()
@@ -35,8 +44,10 @@ public class LoadingController : MonoBehaviour
             canvasGroup.DOFade(1.0f, 0.5f);
             LoadingImageObject.DOFillAmount(1f, 1f).OnComplete(() =>
             {
-                gameObject.SetActive(false);
+                
                 onCompleteAction.Invoke();
+
+                StartCoroutine(WaitToTurnOffLoading());
             }); ;
 
         });
@@ -49,7 +60,11 @@ public class LoadingController : MonoBehaviour
 
         }
 
-
+    IEnumerator WaitToTurnOffLoading()
+    {
+        yield return  new WaitForSeconds(0.75f);
+        gameObject.SetActive(false);
+    }
 
     
    

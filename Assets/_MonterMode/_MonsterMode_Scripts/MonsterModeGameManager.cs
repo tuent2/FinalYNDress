@@ -225,14 +225,8 @@ public class MonsterModeGameManager : MonoBehaviour
     public void ClickPlayAgain()
     {
         SoundController.THIS.PlayTabClip();
-        LoadingController.THIS.gameObject.SetActive(true);
-        LoadingController.THIS.LoadingAction(() =>
-        {
-            SceneManager.LoadScene(0);
-            SoundController.THIS.PlayInGameBGClip();
-            LoadingController.THIS.gameObject.SetActive(false);
-            StartCoroutine(WaitChangeSence());
-        });
+        SceneManager.LoadScene(0);
+        SoundController.THIS.PlayInGameBGClip();
     }
 
     private IEnumerator WaitChangeSence() { 
