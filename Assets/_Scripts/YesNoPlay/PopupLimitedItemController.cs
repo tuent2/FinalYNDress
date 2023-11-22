@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using NaughtyAttributes;
 public class PopupLimitedItemController : MonoBehaviour
 {
     [SerializeField] CanvasGroup gameobjectCanvasGroup;
@@ -38,6 +39,7 @@ public class PopupLimitedItemController : MonoBehaviour
         
     }
 
+    [Button("TestLimitItemAni")]
     public void ActionAfterWatchAds()
     {
         YesNoPlayMananger.THIS.behindCharacterController.MoveLimitedItemToTarget(itemImage.sprite);

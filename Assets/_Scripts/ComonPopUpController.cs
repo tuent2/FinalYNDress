@@ -30,10 +30,10 @@ public class ComonPopUpController : MonoBehaviour
     void Start()
     {
         CloseButton.onClick.AddListener(() => {
-            gameObject.SetActive(false);
+            Container.SetActive(false);
         });
         OkButton.onClick.AddListener(() => {
-            gameObject.SetActive(false);
+            Container.SetActive(false);
         });
     }
 

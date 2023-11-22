@@ -380,6 +380,8 @@ public class AdsIronSourceController : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
         GameManager.THIS.uIYesNoPlay.ChangeStateOfButton(true);
     }
+
+
     // The rewarded video ad was failed to show.
     void RewardedVideoOnAdShowFailedEvent(IronSourceError error, IronSourceAdInfo adInfo)
     {

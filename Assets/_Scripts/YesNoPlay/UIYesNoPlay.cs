@@ -211,8 +211,8 @@ public class UIYesNoPlay : MonoBehaviour
     private Tween LikeReactTween;
     public IEnumerator PlayTabToGet()
     {
-        Flash.gameObject.SetActive(false);
-        YesNoPlayMananger.THIS.EmojiEffect.Play();
+        
+        
         likeNumber = Random.Range(1000, 9999);
         //LikeNumberText.text = LikeNumber+"K";
         seenNumber = Random.Range(1000, 9999);
@@ -225,8 +225,9 @@ public class UIYesNoPlay : MonoBehaviour
            .OnUpdate(() => seenNumberText.text = startValue.ToString() + " K")
            .SetEase(Ease.Linear)
            ;
-
-        yield return new WaitForSeconds(6.6f);
+        yield return new WaitForSeconds(2f);
+        Flash.gameObject.SetActive(false);
+        yield return new WaitForSeconds(4.6f);
         YesNoPlayMananger.THIS.mainCharacterController.PlayAnimationCharacter(0, "Pose", true);
         TutorialView.SetActive(false);
         likeAndSeen.SetActive(false);
@@ -244,6 +245,7 @@ public class UIYesNoPlay : MonoBehaviour
         GameManager.THIS.ChangePhaseComplete();
     }
 
+    [Button("Chup")]
     public void CaptureAndSetScreenshot()
     {
         StartCoroutine(CaptureScreenAndSetImage());
@@ -258,15 +260,15 @@ public class UIYesNoPlay : MonoBehaviour
         int screenWidth = Screen.width;
         int screenHeight = Screen.height;
 
-        // Tính toán kích thước ảnh chụp dựa trên tỷ lệ chiều dài được giữ lại (8/10)
-        //int captureWidth = Mathf.RoundToInt(screenWidth * 8f / 10f);
-        //int captureHeight = screenHeight;
-        int captureWidth = screenWidth;
-        int captureHeight = Mathf.RoundToInt(screenHeight * 8f / 10f);
 
-        // Tính toán vị trí bắt đầu từ 1/10 đến 9/10 chiều dài màn hình
+        int captureWidth = screenWidth;
+        //int captureWidth = Mathf.RoundToInt(screenWidth * 9f / 10f);
+        int captureHeight = Mathf.RoundToInt(screenHeight * 7.75f / 10f);
+
+
         int startX = 0;
-    int startY = Mathf.RoundToInt(screenHeight / 10f); // Bắt đầu từ đầu chiều dài màn hình
+        //int startX = Mathf.RoundToInt(screenWidth / 10f);
+        int startY = Mathf.RoundToInt(screenHeight * 2.75f / 20f); // Bắt đầu từ đầu chiều dài màn hình
 
     // Tạo một Texture2D với kích thước mong muốn
     Texture2D screenshotTexture = new Texture2D(captureWidth, captureHeight, TextureFormat.RGB24, false);

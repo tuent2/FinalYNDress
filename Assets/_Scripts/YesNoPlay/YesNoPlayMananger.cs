@@ -118,6 +118,13 @@ public class YesNoPlayMananger : MonoBehaviour
     }
     private void ImportSpineSkinName()
     {
+        hairSkin = new List<string>();
+        shirtSkin = new List<string>();
+        skirtSkin = new List<string>();
+        accSkin = new List<string>();
+        shoeSkin = new List<string>();
+        faceSkin = new List<string>();
+
         var defaultSkin = mainCharacterController.skeletonAnimation.Skeleton.Data;
         foreach (var skin in defaultSkin.Skins)
         {
@@ -182,25 +189,45 @@ public class YesNoPlayMananger : MonoBehaviour
     [Button("TestSkin")]
     public void TestSkinCharacter()
     {
-        int BaseSkin = UnityEngine.Random.Range(0, 2);
-        int hairIndex = UnityEngine.Random.Range(0, hairSprite.Count);
-        int shirtIndex = UnityEngine.Random.Range(0, shirtSprite.Count);
-        int skirtIndex = UnityEngine.Random.Range(0, skirtSprite.Count);
-        int accIndenx = UnityEngine.Random.Range(0, accSprite.Count);
-        int shoeIndex = UnityEngine.Random.Range(0, shoeSprite.Count);
-        int faceIndex = UnityEngine.Random.Range(0, faceSprite.Count);
+
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Base, "DaTrang");
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Hair, "Hair/Hair_Base_Trang");
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shirt, "Shirt/Shirt_Base_Trang");
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Skirt, "Skirt/Skirt_Base_Den");
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Acc, null);
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shoe, "Shoes/Shoes_Base_Trang");
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Face, null);
+
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Base, "DaDen");
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Hair, "Hair/Hair_Base_Den");
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shirt, "Shirt/Shirt_Base_Den");
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Skirt, "Skirt/Skirt_Base_Den");
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Acc, null);
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shoe, "Shoes/Shoes_Base_Den");
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Face, null);
 
 
 
-        
 
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Base, (BaseSkin == 0) ? "DaDen" : "DaTrang");
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Hair, hairSkin[hairIndex]);
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shirt, shirtSkin[shirtIndex]);
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Skirt, skirtSkin[skirtIndex]);
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Acc, accSkin[accIndenx]);
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shoe, shoeSkin[shoeIndex]);
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Face, faceSkin[faceIndex]);
+        //int BaseSkin = UnityEngine.Random.Range(0, 2);
+        //int hairIndex = UnityEngine.Random.Range(0, hairSprite.Count);
+        //int shirtIndex = UnityEngine.Random.Range(0, shirtSprite.Count);
+        //int skirtIndex = UnityEngine.Random.Range(0, skirtSprite.Count);
+        //int accIndenx = UnityEngine.Random.Range(0, accSprite.Count);
+        //int shoeIndex = UnityEngine.Random.Range(0, shoeSprite.Count);
+        //int faceIndex = UnityEngine.Random.Range(0, faceSprite.Count);
+
+
+
+
+
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Base, (BaseSkin == 0) ? "DaDen" : "DaTrang");
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Hair, hairSkin[hairIndex]);
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shirt, shirtSkin[shirtIndex]);
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Skirt, skirtSkin[skirtIndex]);
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Acc, accSkin[accIndenx]);
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shoe, shoeSkin[shoeIndex]);
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Face, faceSkin[faceIndex]);
         mainCharacterController.UpdateCharacterSkin();
 
 
@@ -296,7 +323,7 @@ public class YesNoPlayMananger : MonoBehaviour
         mainCharacterController.transform.position = new Vector2(0f, (-6.42f-2.72f));
         
         float randomValue = UnityEngine.Random.Range(0f, 1f);
-        if (randomValue > 0)
+        if (randomValue >= 0.5f)
         {
             behindCharacterSheep.SetActive(true);
             behindCharacterGrimace.SetActive(false);
@@ -761,15 +788,18 @@ public class YesNoPlayMananger : MonoBehaviour
     public IEnumerator WaitTheFlashToContinues()
     {
         yield return new WaitForSeconds(1f);
-        
+
         mainCharacterController.PlayAnimationCharacter(0, "Dance", true);
         mainCharacterController.gameObject.transform.position = new Vector3(0f, -4.7f, 0f);
         mainCharacterController.gameObject.transform.DOScale(new Vector3(0.75f, 0.75f, 0.75f), 0f);
         yield return new WaitForSeconds(0.35f);
-        cameraMain.DOOrthoSize(cameraMain.orthographicSize * 1.2f, 2.5f);
-        yield return new WaitForSeconds(0.2f);
+        cameraMain.DOOrthoSize(cameraMain.orthographicSize * 1.2f, 0.5f);
+        yield return new WaitForSeconds(1f);
         SenceChangeEffect.Play();
+       
         UIYesNoPlay.THIS.PlayIEnumPlayTabToGet();
+        yield return new WaitForSeconds(1f);
+        EmojiEffect.Play();
     }
 
     

@@ -248,6 +248,21 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">sprites/Comom/Ruybang (1).png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>202,41,405,82</rect>
+                <key>scale9Paddings</key>
+                <rect>202,41,405,82</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">sprites/Comom/Ruybang.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -412,6 +427,51 @@
                 <rect>207,18,415,37</rect>
                 <key>scale9Paddings</key>
                 <rect>207,18,415,37</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">sprites/MonsterMode/AS.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>222,119,443,238</rect>
+                <key>scale9Paddings</key>
+                <rect>222,119,443,238</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">sprites/MonsterMode/Button_try now.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>78,34,155,67</rect>
+                <key>scale9Paddings</key>
+                <rect>78,34,155,67</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">sprites/MonsterMode/Rounded Rectangle 524.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>129,76,258,152</rect>
+                <key>scale9Paddings</key>
+                <rect>129,76,258,152</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -763,6 +823,21 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">sprites/Stage/Btn_mixmonster.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>45,43,90,85</rect>
+                <key>scale9Paddings</key>
+                <rect>45,43,90,85</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">sprites/Stage/ButtonDeressUp.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -778,6 +853,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">sprites/Stage/Cham than.png</key>
             <key type="filename">sprites/Stage/IconAddMoreLimitModel.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -823,6 +899,21 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">sprites/Stage/Mix Monster.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>43,18,85,36</rect>
+                <key>scale9Paddings</key>
+                <rect>43,18,85,36</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">sprites/Stage/Shadow char tren stage.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -835,6 +926,21 @@
                 <rect>52,19,105,37</rect>
                 <key>scale9Paddings</key>
                 <rect>52,19,105,37</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">sprites/Stage/icon_lock.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>19,24,38,47</rect>
+                <key>scale9Paddings</key>
+                <rect>19,24,38,47</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>

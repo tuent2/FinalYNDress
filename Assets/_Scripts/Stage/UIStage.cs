@@ -77,10 +77,10 @@ public class UIStage : MonoBehaviour
         });
 
         MonsterModeButton.onClick.AddListener(()=> {
-            if (PlayerPrefs.GetInt(DataGame.NumberPlay, 0) <= 3)
+            if (PlayerPrefs.GetInt(DataGame.NumberPlay, 0) < 3)
             {
                 ComonPopUpController.THIS.Container.SetActive(true);
-                ComonPopUpController.THIS.inforText.text = "Play Play Dress Up " + (3 - PlayerPrefs.GetInt("NumberPlay", 0)) + " times to unlock";
+                ComonPopUpController.THIS.inforText.text = "Play Dress Up " + (3 - PlayerPrefs.GetInt("NumberPlay", 0)) + " times to unlock";
             }
             else
             {

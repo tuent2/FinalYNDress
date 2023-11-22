@@ -60,6 +60,16 @@ MonoBehaviour:
   TapValume: 1
   DressClip: {fileID: 8300000, guid: 1b9435ddfc9838c40b924984e54f964c, type: 3}
   DressValume: 1
+  NotSelectedClip:
+  - {fileID: 8300000, guid: 8c1e414c448306144bc1b930c05c7563, type: 3}
+  - {fileID: 8300000, guid: 58e811d76169be64fb5470a7baa83f55, type: 3}
+  - {fileID: 8300000, guid: 9b6823c4b5239394b852b9c6d7279879, type: 3}
+  - {fileID: 8300000, guid: 8e374b5bd6811924484236c055eb03a4, type: 3}
+  - {fileID: 8300000, guid: 5c4491664b71ffa4c8b4e0c17b42aa7e, type: 3}
+  - {fileID: 8300000, guid: b59762d2e0276ef40b768f039d13bb55, type: 3}
+  - {fileID: 8300000, guid: 99fdef66544f08e4bbc700bf850d3ae5, type: 3}
+  - {fileID: 8300000, guid: 0b6b59660c998f94f949e90692739cb4, type: 3}
+  NotSelectedValume: 1
 --- !u!82 &7344351107333071570
 AudioSource:
   m_ObjectHideFlags: 0
@@ -166,6 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1161961357986421388}
   - component: {fileID: 3434637403721278796}
+  - component: {fileID: 2495942149791561437}
   m_Layer: 0
   m_Name: AdsManager
   m_TagString: Untagged
@@ -201,6 +212,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _adUnitId: ca-app-pub-9155677473466904/1167190206
+--- !u!114 &2495942149791561437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558449231522838927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86abdbde36cc89d48bb255d6878c861c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TypeReward: 0
+  timeInterAds: 20
 --- !u!1 &6472748268893334165
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,7 +259,7 @@ Transform:
   - {fileID: 2390905783521750764}
   - {fileID: 5393287045921611055}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6562619099307413777
 GameObject:
@@ -306,17 +331,8 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8033820146099176259}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2483065d0dfc73843b210ee5383817f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notice1: "Do you want to play now? Yes or Yes? \U0001F44C"
-  notice2_1: "Let's Mix your Monster today!!! \U0001F602"
-  notice2_2: "New Item for your monster! Try them now \U0001F929"
-  notice3: "Many rewards are ready! \U0001F381 Play to collect"
-  notice4: "\U0001F47F\U0001F978Let's start mixing and creating your very own monster!\U0001F608\U0001F921"
-  notice5: "Challenge yourself with Mixing! \U0001F602"
-  notice6: "Let's play and have fun with your Monster \U0001F608\U0001F9DB\u200D\u2640\uFE0F"
-  notice7: "\U0001F3AE\U0001F579\uFE0F It's Playtime \U0001F3AE\U0001F579\uFE0F"
-  notice8: []

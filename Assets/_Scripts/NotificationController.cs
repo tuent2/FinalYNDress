@@ -63,15 +63,16 @@ public class NotificationController : MonoBehaviour
         }
 
     }
-    public string notice1 = "Do you want to play now? Yes or Yes? 👌";
-    public string notice2_1 = "👗🤣👚Time to style your character! Let's dress up and have fun!🤣👗👚";
-    public string notice2_2 = "👕👜New Item for your Model!!! Try them now 🤩🤩";
-    public string notice3 = "🎁🎁Many rewards are ready, Play to collect !!!🎁🎁";
-    public string notice4 = "🥻🩳Get ready to create your unique character look👜👝";
-    public string notice5 = "👚😎Dress up and show off your fashion skills!!! 😂👗";
-    public string notice6 = "🤣👚Your character deserves a fresh new outfit!!!🤩👗";
-    public string notice7 = "👕👜New Item for your Model!!! Try them now 🤩🤩";
-    public string[] notice8;
+    private string notice1 = "Do you want to play now? Yes or Yes? 👌";
+    private string notice2_1 = "👗🤣👚Time to style your character! Let's dress up and have fun!🤣👗👚";
+    private string notice2_2 = "👕👜New Item for your Model!!! Try them now 🤩🤩";
+    private string notice3 = "🎁🎁Many rewards are ready, Play to collect !!!🎁🎁";
+    private string notice4 = "🥻🩳Get ready to create your unique character look👜👝";
+    private string notice5 = "👚😎Dress up and show off your fashion skills!!! 😂👗";
+    private string notice6 = "🤣👚Your character deserves a fresh new outfit!!!🤩👗";
+    private string notice7 = "👕👜New Item for your Model!!! Try them now 🤩🤩";
+    private string[] notice8 = new string[] { "Do you want to play now? Yes or Yes? 👌", "👗🤣👚Time to style your character! Let's dress up and have fun!🤣👗👚" ,
+                            "👕👜New Item for your Model!!! Try them now 🤩🤩"};
 
 
     public void StartNotice()

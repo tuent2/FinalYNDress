@@ -94,8 +94,20 @@ public class BehindCharacterController : MonoBehaviour
     private IEnumerator PlayAniGetTheItem()
     {
         //yield return null;
-        PlayAnimationCharacter(1, "Lay_Item", false);
+        //PlayAnimationCharacter(1, "Lay_Item", false);
+        if (!isSheep)
+        {
+            skeletonAnimation.state.SetAnimation(1, "Lay_Item", false).Complete += delegate {
+                skeletonAnimation.state.AddAnimation(0, "Idle", true, 0);
+                skeletonAnimation.Initialize(true);
+            };
         
+            
+        }
+        else
+        {
+            PlayAnimationCharacter(1, "Lay_Item", false);
+        }
         SetObjectAlpha(0f);
 
         //Debug.Log("1");
@@ -252,6 +264,7 @@ public class BehindCharacterController : MonoBehaviour
             });
     }
 
+   
     public void MoveLimitedItemToTarget (Sprite itemSprite)
     {
         PlayAnimationCharacter(1, "Yes", true);
@@ -270,9 +283,9 @@ public class BehindCharacterController : MonoBehaviour
         //Debug.Log("2");
         float elapsedTime = 0f;
 
-        while (elapsedTime < 2f)
+        while (elapsedTime < 1f)
         {
-            float alpha = Mathf.Lerp(0f, 1f, elapsedTime / 2f);
+            float alpha = Mathf.Lerp(0f, 1f, elapsedTime / 1f);
             itemColor = itemInSidePrefab.color;
             itemColor.a = alpha;
             itemInSidePrefab.color = itemColor;

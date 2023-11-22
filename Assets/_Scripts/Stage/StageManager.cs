@@ -104,7 +104,7 @@ public class StageManager : MonoBehaviour
         countMonsterOnAlbumMax = PlayerPrefs.GetInt(DataGame.countMonsterOnAlbumMax, 3);
 
         int countMonsterOnAlbum = mainCharacterManagerInStage.Count;
-        if (countMonsterOnAlbumMax == countMonsterOnAlbum)
+        if (countMonsterOnAlbumMax >= countMonsterOnAlbum)
         {
             uIStage.UpdateAddNewLimmitedModelIcon(true);
         }else

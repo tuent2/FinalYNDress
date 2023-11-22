@@ -38,6 +38,7 @@ public class SettingPanelController : MonoBehaviour
 
     public void ClickHomeButtonFromSence0()
     {
+        gameObject.SetActive(false);
         GameManager.THIS.TurnOfCurrentPhase();
         GameManager.THIS.ChangePhaseStage();
     }
