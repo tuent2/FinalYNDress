@@ -10,6 +10,11 @@ public class StageLimitedPopUpController : MonoBehaviour
     void Start()
     {
         CloseButton.onClick.AddListener(()=> {
+            int numberPlay = PlayerPrefs.GetInt("NumberPlay", 1);
+            if (numberPlay >= 2)
+            {
+                AdsIronSourceController.THIS.ShowInterstitialAds();
+            }
             gameObject.SetActive(false);
         });
         AddMoreLimit.onClick.AddListener(() => {

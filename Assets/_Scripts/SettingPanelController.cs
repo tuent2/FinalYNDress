@@ -25,19 +25,24 @@ public class SettingPanelController : MonoBehaviour
     public Image BGM_Icon;
 
 
-  
-
-    void Start()
+    private void Awake()
     {
-        
         SetSFX = PlayerPrefs.GetInt("SFX", 1);
         SetBGM = PlayerPrefs.GetInt("BGM", 1);
-       
 
+        Debug.Log(SetBGM);
+        Debug.Log(SetSFX);
     }
+
+   
 
     public void ClickHomeButtonFromSence0()
     {
+        int numberPlay = PlayerPrefs.GetInt("NumberPlay", 1);
+        if (numberPlay >= 2)
+        {
+            AdsIronSourceController.THIS.ShowInterstitialAds();
+        }
         gameObject.SetActive(false);
         GameManager.THIS.TurnOfCurrentPhase();
         GameManager.THIS.ChangePhaseStage();
@@ -60,6 +65,7 @@ public class SettingPanelController : MonoBehaviour
         }
         if (SetSFX == 1)
         {
+            Debug.Log(123);
             SFX_Bg.sprite = bg_OnImage;
             SFX_Icon.sprite = sfx_OnImage;
         }
@@ -70,6 +76,7 @@ public class SettingPanelController : MonoBehaviour
         }
         if (SetBGM == 1)
         {
+            Debug.Log(123);
             BGM_Bg.sprite = bg_OnImage;
             BGM_Icon.sprite = bgm_OnImage;
         }

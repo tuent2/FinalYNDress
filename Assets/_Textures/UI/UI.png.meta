@@ -152,8 +152,8 @@ TextureImporter:
       name: Comom-finger_for_tutorial
       rect:
         serializedVersion: 2
-        x: 1083
-        y: 792
+        x: 1826
+        y: 953
         width: 186
         height: 143
       alignment: 0
@@ -174,7 +174,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 934
+        y: 862
         width: 766
         height: 323
       alignment: 0
@@ -194,8 +194,8 @@ TextureImporter:
       name: Comom-IconADS
       rect:
         serializedVersion: 2
-        x: 1752
-        y: 594
+        x: 1938
+        y: 610
         width: 92
         height: 112
       alignment: 0
@@ -215,8 +215,8 @@ TextureImporter:
       name: Comom-IconExit
       rect:
         serializedVersion: 2
-        x: 1335
-        y: 317
+        x: 1670
+        y: 227
         width: 135
         height: 134
       alignment: 0
@@ -236,8 +236,8 @@ TextureImporter:
       name: Comom-IconYellowButton
       rect:
         serializedVersion: 2
-        x: 832
-        y: 602
+        x: 812
+        y: 697
         width: 387
         height: 186
       alignment: 0
@@ -257,8 +257,8 @@ TextureImporter:
       name: Comom-QuaBong
       rect:
         serializedVersion: 2
-        x: 1470
-        y: 168
+        x: 1806
+        y: 482
         width: 115
         height: 115
       alignment: 0
@@ -278,8 +278,8 @@ TextureImporter:
       name: Comom-Ruybang
       rect:
         serializedVersion: 2
-        x: 890
-        y: 1371
+        x: 1
+        y: 538
         width: 822
         height: 156
       alignment: 0
@@ -299,8 +299,8 @@ TextureImporter:
       name: Comom-Star
       rect:
         serializedVersion: 2
-        x: 1454
-        y: 62
+        x: 769
+        y: 1081
         width: 104
         height: 104
       alignment: 0
@@ -320,8 +320,8 @@ TextureImporter:
       name: Completed-Button_next
       rect:
         serializedVersion: 2
-        x: 331
-        y: 12
+        x: 1698
+        y: 1372
         width: 349
         height: 147
       alignment: 0
@@ -341,8 +341,8 @@ TextureImporter:
       name: Completed-Button_share
       rect:
         serializedVersion: 2
-        x: 809
-        y: 453
+        x: 1698
+        y: 1223
         width: 349
         height: 147
       alignment: 0
@@ -362,8 +362,8 @@ TextureImporter:
       name: Completed-Icon_back
       rect:
         serializedVersion: 2
-        x: 1615
-        y: 506
+        x: 1652
+        y: 84
         width: 135
         height: 141
       alignment: 0
@@ -383,8 +383,8 @@ TextureImporter:
       name: Completed-Icon_share
       rect:
         serializedVersion: 2
-        x: 1639
-        y: 363
+        x: 1789
+        y: 84
         width: 135
         height: 141
       alignment: 0
@@ -404,8 +404,8 @@ TextureImporter:
       name: Completed-Icon-co
       rect:
         serializedVersion: 2
-        x: 809
-        y: 412
+        x: 832
+        y: 409
         width: 28
         height: 39
       alignment: 0
@@ -425,8 +425,8 @@ TextureImporter:
       name: Loading
       rect:
         serializedVersion: 2
-        x: 1526
-        y: 940
+        x: 519
+        y: 32
         width: 341
         height: 341
       alignment: 0
@@ -446,8 +446,8 @@ TextureImporter:
       name: Loading-Layer 180 copy
       rect:
         serializedVersion: 2
-        x: 890
-        y: 1283
+        x: 1
+        y: 450
         width: 841
         height: 86
       alignment: 0
@@ -467,8 +467,8 @@ TextureImporter:
       name: Loading-Loading . . .
       rect:
         serializedVersion: 2
-        x: 769
-        y: 937
+        x: 825
+        y: 590
         width: 456
         height: 105
       alignment: 0
@@ -488,8 +488,8 @@ TextureImporter:
       name: Loading-Rounded Rectangle 20
       rect:
         serializedVersion: 2
-        x: 1587
-        y: 173
+        x: 1923
+        y: 273
         width: 44
         height: 110
       alignment: 0
@@ -510,7 +510,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 715
+        y: 375
         width: 829
         height: 73
       alignment: 0
@@ -530,8 +530,8 @@ TextureImporter:
       name: NativeAds-Ad
       rect:
         serializedVersion: 2
-        x: 1227
-        y: 1014
+        x: 1807
+        y: 227
         width: 42
         height: 28
       alignment: 0
@@ -552,7 +552,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 890
-        y: 1186
+        y: 1216
         width: 634
         height: 95
       alignment: 0
@@ -572,8 +572,8 @@ TextureImporter:
       name: NativeAds-Polygon 3 copy 4
       rect:
         serializedVersion: 2
-        x: 1733
-        y: 1287
+        x: 1364
+        y: 626
         width: 97
         height: 16
       alignment: 0
@@ -593,8 +593,8 @@ TextureImporter:
       name: OverlapCanvas-IconNoAds
       rect:
         serializedVersion: 2
-        x: 1363
-        y: 1038
+        x: 1649
+        y: 511
         width: 155
         height: 146
       alignment: 0
@@ -614,8 +614,8 @@ TextureImporter:
       name: OverlapCanvas-IconSetting
       rect:
         serializedVersion: 2
-        x: 1472
-        y: 442
+        x: 1649
+        y: 363
         width: 141
         height: 146
       alignment: 0
@@ -635,8 +635,8 @@ TextureImporter:
       name: PopUpLimitedItem-Bow
       rect:
         serializedVersion: 2
-        x: 1698
-        y: 1570
+        x: 1526
+        y: 1146
         width: 165
         height: 165
       alignment: 0
@@ -656,8 +656,8 @@ TextureImporter:
       name: PopUpLimitedItem-ButtonClaim
       rect:
         serializedVersion: 2
-        x: 1271
-        y: 934
+        x: 1773
+        y: 849
         width: 253
         height: 102
       alignment: 0
@@ -677,8 +677,8 @@ TextureImporter:
       name: PopUpLimitedItem-HeaderConner
       rect:
         serializedVersion: 2
-        x: 769
-        y: 1044
+        x: 890
+        y: 1074
         width: 592
         height: 140
       alignment: 0
@@ -698,8 +698,8 @@ TextureImporter:
       name: PopUpLimitedItem-text-LIMITED ITEM
       rect:
         serializedVersion: 2
-        x: 1221
-        y: 590
+        x: 1
+        y: 17
         width: 387
         height: 50
       alignment: 0
@@ -716,32 +716,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PopUpLimitedItem-text-Nothanks
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 382
-        width: 136
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a49ca6c14b8638845bb1c50711c70582
-      internalID: -961954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Rate-star
       rect:
         serializedVersion: 2
-        x: 1765
-        y: 708
+        x: 1792
+        y: 385
         width: 99
         height: 95
       alignment: 0
@@ -761,8 +740,8 @@ TextureImporter:
       name: Rate-unselectStart
       rect:
         serializedVersion: 2
-        x: 1633
-        y: 141
+        x: 1893
+        y: 385
         width: 99
         height: 95
       alignment: 0
@@ -782,8 +761,8 @@ TextureImporter:
       name: Setting-Button_Home
       rect:
         serializedVersion: 2
-        x: 1577
-        y: 805
+        x: 1541
+        y: 963
         width: 283
         height: 133
       alignment: 0
@@ -803,8 +782,8 @@ TextureImporter:
       name: Setting-Button_silent
       rect:
         serializedVersion: 2
-        x: 682
-        y: 4
+        x: 1482
+        y: 487
         width: 165
         height: 155
       alignment: 0
@@ -824,8 +803,8 @@ TextureImporter:
       name: Setting-Button_sound music bt
       rect:
         serializedVersion: 2
-        x: 1472
-        y: 285
+        x: 1482
+        y: 330
         width: 165
         height: 155
       alignment: 0
@@ -845,8 +824,8 @@ TextureImporter:
       name: Setting-icon_music
       rect:
         serializedVersion: 2
-        x: 1793
-        y: 9
+        x: 1201
+        y: 716
         width: 74
         height: 71
       alignment: 0
@@ -866,8 +845,8 @@ TextureImporter:
       name: Setting-icon_music silent
       rect:
         serializedVersion: 2
-        x: 769
-        y: 1186
+        x: 1938
+        y: 537
         width: 87
         height: 71
       alignment: 0
@@ -887,8 +866,8 @@ TextureImporter:
       name: Setting-icon_sound
       rect:
         serializedVersion: 2
-        x: 1776
-        y: 346
+        x: 1735
+        y: 8
         width: 87
         height: 74
       alignment: 0
@@ -908,8 +887,8 @@ TextureImporter:
       name: Setting-icon_sound silent
       rect:
         serializedVersion: 2
-        x: 1752
-        y: 518
+        x: 1553
+        y: 32
         width: 90
         height: 74
       alignment: 0
@@ -929,8 +908,8 @@ TextureImporter:
       name: Stage-BgBehindAlbum
       rect:
         serializedVersion: 2
-        x: 1
-        y: 4
+        x: 862
+        y: 185
         width: 328
         height: 403
       alignment: 0
@@ -950,8 +929,8 @@ TextureImporter:
       name: Stage-BgCountNumberModel
       rect:
         serializedVersion: 2
-        x: 1560
-        y: 96
+        x: 1969
+        y: 313
         width: 68
         height: 70
       alignment: 0
@@ -972,7 +951,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 890
-        y: 1529
+        y: 1313
         width: 806
         height: 206
       alignment: 0
@@ -992,8 +971,8 @@ TextureImporter:
       name: Stage-BgMainAlbum
       rect:
         serializedVersion: 2
-        x: 519
-        y: 350
+        x: 1192
+        y: 225
         width: 288
         height: 363
       alignment: 0
@@ -1013,8 +992,8 @@ TextureImporter:
       name: Stage-BgMiddle
       rect:
         serializedVersion: 2
-        x: 1
-        y: 790
+        x: 890
+        y: 1521
         width: 1080
         height: 142
       alignment: 0
@@ -1034,8 +1013,8 @@ TextureImporter:
       name: Stage-BgNumberModel
       rect:
         serializedVersion: 2
-        x: 1577
-        y: 723
+        x: 1482
+        y: 248
         width: 186
         height: 80
       alignment: 0
@@ -1055,8 +1034,8 @@ TextureImporter:
       name: Stage-ButtonDeressUp
       rect:
         serializedVersion: 2
-        x: 331
-        y: 161
+        x: 769
+        y: 885
         width: 508
         height: 187
       alignment: 0
@@ -1076,8 +1055,8 @@ TextureImporter:
       name: Stage-Cham than
       rect:
         serializedVersion: 2
-        x: 1103
-        y: 192
+        x: 1923
+        y: 484
         width: 50
         height: 51
       alignment: 0
@@ -1097,8 +1076,8 @@ TextureImporter:
       name: Stage-IconAddMoreLimitModel
       rect:
         serializedVersion: 2
-        x: 1398
-        y: 11
+        x: 1975
+        y: 484
         width: 50
         height: 51
       alignment: 0
@@ -1118,8 +1097,8 @@ TextureImporter:
       name: Stage-IconDeleteImedelyModel
       rect:
         serializedVersion: 2
-        x: 1560
-        y: 24
+        x: 1969
+        y: 241
         width: 68
         height: 70
       alignment: 0
@@ -1139,8 +1118,8 @@ TextureImporter:
       name: Stage-IconDeleteModel
       rect:
         serializedVersion: 2
-        x: 1338
-        y: 64
+        x: 1807
+        y: 257
         width: 114
         height: 126
       alignment: 0
@@ -1160,8 +1139,8 @@ TextureImporter:
       name: Stage-IconModel
       rect:
         serializedVersion: 2
-        x: 1630
-        y: 6
+        x: 1484
+        y: 1089
         width: 55
         height: 55
       alignment: 0
@@ -1181,8 +1160,8 @@ TextureImporter:
       name: Stage-Shadow char tren stage
       rect:
         serializedVersion: 2
-        x: 1103
-        y: 245
+        x: 1169
+        y: 11
         width: 209
         height: 75
       alignment: 0
@@ -1202,8 +1181,8 @@ TextureImporter:
       name: View-bgIcon
       rect:
         serializedVersion: 2
-        x: 1221
-        y: 642
+        x: 1693
+        y: 1098
         width: 335
         height: 123
       alignment: 0
@@ -1223,8 +1202,8 @@ TextureImporter:
       name: View-icon_heart
       rect:
         serializedVersion: 2
-        x: 1250
-        y: 8
+        x: 1912
+        y: 17
         width: 76
         height: 62
       alignment: 0
@@ -1244,8 +1223,8 @@ TextureImporter:
       name: View-icon_Live
       rect:
         serializedVersion: 2
-        x: 1103
-        y: 322
+        x: 1541
+        y: 832
         width: 230
         height: 129
       alignment: 0
@@ -1265,8 +1244,8 @@ TextureImporter:
       name: View-icon_mat xem
       rect:
         serializedVersion: 2
-        x: 1450
-        y: 14
+        x: 1283
+        y: 596
         width: 79
         height: 46
       alignment: 0
@@ -1286,8 +1265,8 @@ TextureImporter:
       name: YesNoPlay-BgNotSelected
       rect:
         serializedVersion: 2
-        x: 1733
-        y: 1305
+        x: 1773
+        y: 724
         width: 130
         height: 123
       alignment: 0
@@ -1307,8 +1286,8 @@ TextureImporter:
       name: YesNoPlay-BgSelected
       rect:
         serializedVersion: 2
-        x: 1639
-        y: 238
+        x: 1905
+        y: 724
         width: 130
         height: 123
       alignment: 0
@@ -1328,8 +1307,8 @@ TextureImporter:
       name: YesNoPlay-BgSelecting
       rect:
         serializedVersion: 2
-        x: 1338
-        y: 192
+        x: 1806
+        y: 599
         width: 130
         height: 123
       alignment: 0
@@ -1349,8 +1328,8 @@ TextureImporter:
       name: YesNoPlay-Bong bong
       rect:
         serializedVersion: 2
-        x: 841
-        y: 190
+        x: 1279
+        y: 811
         width: 260
         height: 261
       alignment: 0
@@ -1370,8 +1349,8 @@ TextureImporter:
       name: YesNoPlay-ButtonNo
       rect:
         serializedVersion: 2
-        x: 849
-        y: 22
+        x: 862
+        y: 17
         width: 305
         height: 166
       alignment: 0
@@ -1391,8 +1370,8 @@ TextureImporter:
       name: YesNoPlay-ButtonYes
       rect:
         serializedVersion: 2
-        x: 1271
-        y: 767
+        x: 1283
+        y: 644
         width: 304
         height: 165
       alignment: 0
@@ -1412,8 +1391,8 @@ TextureImporter:
       name: YesNoPlay-Icon_acc
       rect:
         serializedVersion: 2
-        x: 1716
-        y: 5
+        x: 1972
+        y: 1588
         width: 75
         height: 75
       alignment: 0
@@ -1433,8 +1412,8 @@ TextureImporter:
       name: YesNoPlay-Icon_face
       rect:
         serializedVersion: 2
-        x: 1156
-        y: 5
+        x: 390
+        y: 2
         width: 92
         height: 65
       alignment: 0
@@ -1454,8 +1433,8 @@ TextureImporter:
       name: YesNoPlay-Icon_hair
       rect:
         serializedVersion: 2
-        x: 1771
-        y: 264
+        x: 1926
+        y: 159
         width: 84
         height: 80
       alignment: 0
@@ -1475,8 +1454,8 @@ TextureImporter:
       name: YesNoPlay-Icon_shirt
       rect:
         serializedVersion: 2
-        x: 1630
-        y: 63
+        x: 1926
+        y: 81
         width: 84
         height: 76
       alignment: 0
@@ -1496,8 +1475,8 @@ TextureImporter:
       name: YesNoPlay-Icon_shoe
       rect:
         serializedVersion: 2
-        x: 1734
-        y: 158
+        x: 1824
+        y: 4
         width: 86
         height: 78
       alignment: 0
@@ -1517,8 +1496,8 @@ TextureImporter:
       name: YesNoPlay-Icon_skirt
       rect:
         serializedVersion: 2
-        x: 1734
-        y: 82
+        x: 1645
+        y: 8
         width: 88
         height: 74
       alignment: 0
@@ -1538,8 +1517,8 @@ TextureImporter:
       name: YesNoPlay-Layer 96
       rect:
         serializedVersion: 2
-        x: 1714
-        y: 1430
+        x: 1504
+        y: 108
         width: 146
         height: 138
       alignment: 0
@@ -1559,8 +1538,8 @@ TextureImporter:
       name: YesNoPlay-tick
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 1
+        x: 1972
+        y: 1527
         width: 68
         height: 59
       alignment: 0
@@ -1581,7 +1560,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 1259
+        y: 1187
         width: 887
         height: 476
       alignment: 0
@@ -1601,8 +1580,8 @@ TextureImporter:
       name: MonsterMode-Button_try now
       rect:
         serializedVersion: 2
-        x: 1160
-        y: 453
+        x: 1192
+        y: 88
         width: 310
         height: 135
       alignment: 0
@@ -1623,7 +1602,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 409
+        y: 69
         width: 516
         height: 304
       alignment: 0
@@ -1643,8 +1622,8 @@ TextureImporter:
       name: Stage-Btn_mixmonster
       rect:
         serializedVersion: 2
-        x: 1156
-        y: 72
+        x: 1589
+        y: 659
         width: 180
         height: 171
       alignment: 0
@@ -1664,8 +1643,8 @@ TextureImporter:
       name: Stage-Mix Monster
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 649
+        x: 1380
+        y: 14
         width: 171
         height: 72
       alignment: 0
@@ -1685,8 +1664,8 @@ TextureImporter:
       name: Stage-icon_lock
       rect:
         serializedVersion: 2
-        x: 1776
-        y: 422
+        x: 1201
+        y: 789
         width: 76
         height: 94
       alignment: 0
@@ -1698,6 +1677,27 @@ TextureImporter:
       bones: []
       spriteID: a6dc414075495bc47992a4c43c89bb81
       internalID: -507330643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Comom-Ruybang (1)
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 696
+        width: 809
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db25c6d8743bd2498df9ff7049d1337
+      internalID: 1077885094
       vertices: []
       indices: 
       edges: []
@@ -1719,6 +1719,7 @@ TextureImporter:
       Comom-IconYellowButton: 1427822049
       Comom-QuaBong: -1106796973
       Comom-Ruybang: -1992028554
+      Comom-Ruybang (1): 1077885094
       Comom-Star: -1867335523
       Comom-finger_for_tutorial: -1549651114
       Completed-Button_next: 834493603
@@ -1743,7 +1744,6 @@ TextureImporter:
       PopUpLimitedItem-ButtonClaim: -1857998098
       PopUpLimitedItem-HeaderConner: -1986537779
       PopUpLimitedItem-text-LIMITED ITEM: -706020967
-      PopUpLimitedItem-text-Nothanks: -961954
       Rate-star: 1262851221
       Rate-unselectStart: 1130722237
       Setting-Button_Home: 268438789

@@ -84,6 +84,7 @@ public class UIStage : MonoBehaviour
             }
             else
             {
+                AdsIronSourceController.THIS.ShowInterstitialAds();
                 LoadingController.THIS.LoadingAction(() => {
                     SceneManager.LoadScene(1);
                 });

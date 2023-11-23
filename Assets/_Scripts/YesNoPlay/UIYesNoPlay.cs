@@ -131,12 +131,10 @@ public class UIYesNoPlay : MonoBehaviour
         delegate
         {
 
-            GameManager.THIS.uIYesNoPlay.ChangeStateOfButton(false);
-            YesNoPlayMananger.THIS.RandomSkinInSideBuble();
-            StartCoroutine(SetButtonCanSelect());
+            
             //FireBaseAnalysticsController.THIS.FireEvent("ADS_REWARD_CLICK");
-            //AdsIronSourceController.THIS.TypeReward = 4;
-            //AdsIronSourceController.THIS.ShowRewardAds();
+            AdsIronSourceController.THIS.TypeReward = 4;
+            AdsIronSourceController.THIS.ShowRewardAds();
         }
         ); ; ;
         TabButton.onClick.AddListener(
@@ -151,11 +149,11 @@ public class UIYesNoPlay : MonoBehaviour
 
     }
 
-    private IEnumerator SetButtonCanSelect()
-    {
-        yield return new WaitForSeconds(2.5f);
-        GameManager.THIS.uIYesNoPlay.ChangeStateOfButton(true);
-    }
+    //private IEnumerator SetButtonCanSelect()
+    //{
+    //    yield return new WaitForSeconds(2.5f);
+    //    GameManager.THIS.uIYesNoPlay.ChangeStateOfButton(true);
+    //}
 
     public void SetupForYNPlay()
     {
@@ -167,12 +165,7 @@ public class UIYesNoPlay : MonoBehaviour
         }
         ChangeStateOfButton(true);
     }
-    IEnumerator DelayWaitToRandom()
-    {
-        YesNoPlayMananger.THIS.RandomSkinInSideBuble();
-        yield return new WaitForSeconds(1.2f);
-        ChangeStateOfButton(true);
-    }
+
 
     IEnumerator ShowNotificationAfterDelay()
     {
@@ -229,6 +222,8 @@ public class UIYesNoPlay : MonoBehaviour
         Flash.gameObject.SetActive(false);
         yield return new WaitForSeconds(4.6f);
         YesNoPlayMananger.THIS.mainCharacterController.PlayAnimationCharacter(0, "Pose", true);
+        GameManager.THIS.uIComplete.LikeText.text = likeNumber + " K";
+        GameManager.THIS.uIComplete.SeenText.text = seenNumber + " K";
         TutorialView.SetActive(false);
         likeAndSeen.SetActive(false);
         yield return new WaitForSeconds(0.2f);

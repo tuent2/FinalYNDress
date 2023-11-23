@@ -44,7 +44,12 @@ public class GameManager : MonoBehaviour
     {
         
         SoundController.THIS.PlayInGameBGClip();
-        AdsOpenAppController.THIS.OnShowOpenAppWithEndOfFrame();
+        if (PlayerPrefs.GetInt(DataGame.isOpenApp, 0) != 0)
+        {     
+            AdsOpenAppController.THIS.OnShowOpenAppWithEndOfFrame();
+            PlayerPrefs.SetInt(DataGame.isOpenApp, 1);
+        }
+        
         if (PlayerPrefs.GetInt(DataGame.isDoneFirstTimePlay, 0) != 0)
         {
             
@@ -160,6 +165,7 @@ public class GameManager : MonoBehaviour
         if (!focus)
         {
             CharactersData.WriteFile(stageManager.charactersData);
+            PlayerPrefs.SetInt(DataGame.isOpenApp, 0);
         }
     }
 

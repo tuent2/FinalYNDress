@@ -17,6 +17,7 @@ public class DataGame : MonoBehaviour
     //---------------------------------------------YesNoPlayManager--------------------------------------------------//
     public const string NumberPlay = "NumberPlay";
     public const string isRating = "isRating";
+    public const string isOpenApp = "isOpenApp";
     public const string appPackageName = "https://play.google.com/store/apps/details?id=com.dressup.makeup.leftright.monstermakeover.monsterdressup.yesorno";
     //---------------------------------------------Album--------------------------------------------------//
     public const string screenShotNumber = "ScreenShot_number";

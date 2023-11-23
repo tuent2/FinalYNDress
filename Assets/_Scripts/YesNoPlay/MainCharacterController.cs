@@ -136,14 +136,31 @@ public class MainCharacterController : MonoBehaviour
 
 
     public void SaveMonsterData(int scoreMonster)
-    {
+    {   
+        
         characterData.id = DateTime.Now.ToBinary().ToString();
         characterData.scoreCharacter = scoreMonster;
-        
-        GameManager.THIS.stageManager.SaveMonsterData(characterData);
+
+
+        CharacterData characterData123 = new CharacterData();
+        characterData123.id = characterData.id;
+        characterData123.baseSkin = characterData.baseSkin;
+        characterData123.hairSkin = characterData.hairSkin;
+        characterData123.shirtSkin = characterData.shirtSkin;
+        characterData123.skirtSkin = characterData.skirtSkin;
+        characterData123.accSkin = characterData.accSkin;
+        characterData123.shoeSkin = characterData.shoeSkin;
+        characterData123.faceSkin = characterData.faceSkin;
+        characterData123.scoreCharacter = characterData.scoreCharacter;
+        characterData123.isDropInStage = characterData.isDropInStage;
+        characterData123.posDropedInStage = characterData.posDropedInStage;
+
+        GameManager.THIS.stageManager.SaveMonsterData(characterData123);
+        Debug.Log("123111111111111111111111111111111111111111111");
+
     }
 
-    #region Album
+    #region Stage
     public void HandleShowAlbum(CharacterData characterData)
     {
         this.characterData = characterData;

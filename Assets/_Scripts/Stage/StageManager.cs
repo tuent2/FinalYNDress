@@ -137,14 +137,16 @@ public class StageManager : MonoBehaviour
 
     public void SaveMonsterData(CharacterData monsterData)
     {
-        
+       
         if (charactersData.characterDataMaked == null)
         {
             charactersData.characterDataMaked = new List<CharacterData>();
         }
+
         AddNewMonsterMaked(monsterData);
         GameManager.THIS.stageManager.charactersData.characterDataMaked.Add(monsterData);
         CharactersData.WriteFile(GameManager.THIS.stageManager.charactersData);
+        //Debug.Log("Add Data");
     }
 
     public void AddNewMonsterMaked(CharacterData monsterData)
@@ -253,8 +255,8 @@ public class StageManager : MonoBehaviour
             
             uIStage.ShowMonsterSpawn(characterDatasDonotInStage, (baseEventData, monsterData) =>
             {
-                Debug.Log(1234);
-                this.characterDataDragging = monsterData;
+               
+                characterDataDragging = monsterData;
                 characterManagerDragging = AddMonster(monsterData);
                 
                 characterManagerDragging.transform.position = new Vector2(uIStage.CharacterDoNotDragPanel.transform.position.x-3.5f, uIStage.CharacterDoNotDragPanel.transform.position.y);
@@ -278,8 +280,7 @@ public class StageManager : MonoBehaviour
                 {
                     selectableByFinger.SelectSelf(finger);
                 }
-                Debug.Log(characterManagerDragging.transform.position);
-                Debug.Log(uIStage.CharacterDoNotDragPanel.transform.position);
+               
             });
            
         }

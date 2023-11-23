@@ -4,86 +4,86 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # https://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:9a072244690690fde653c55a4bb3d5c1:3a4fb673a428a7efa5d8bf94e88108a9:64d56465927d50bb5400e4c66dc46a97$
+# $TexturePacker:SmartUpdate:173e2c1d56183584a1830c16a48b9215:1406d8c771e46fb7ba30c1a86688fa91:64d56465927d50bb5400e4c66dc46a97$
 #
 :format=40300
 :texture=UI.png
-:size=1868x1736
+:size=2048x1664
 :pivotpoints=enabled
 :borders=disabled
 :alphahandling=ClearTransparentPixels
 
-Comom-finger_for_tutorial;1083;792;186;143; 0.5;0.5; 0;0;0;0
-Comom-Header;1;934;766;323; 0.5;0.5; 0;0;0;0
-Comom-IconADS;1752;594;92;112; 0.5;0.5; 0;0;0;0
-Comom-IconExit;1335;317;135;134; 0.5;0.5; 0;0;0;0
-Comom-IconYellowButton;832;602;387;186; 0.5;0.5; 0;0;0;0
-Comom-QuaBong;1470;168;115;115; 0.5;0.5; 0;0;0;0
-Comom-Ruybang;890;1371;822;156; 0.5;0.5; 0;0;0;0
-Comom-Star;1454;62;104;104; 0.5;0.5; 0;0;0;0
-Completed-Button_next;331;12;349;147; 0.5;0.5; 0;0;0;0
-Completed-Button_share;809;453;349;147; 0.5;0.5; 0;0;0;0
-Completed-Icon-co;809;412;28;39; 0.5;0.5; 0;0;0;0
-Completed-Icon_back;1615;506;135;141; 0.5;0.5; 0;0;0;0
-Completed-Icon_share;1639;363;135;141; 0.5;0.5; 0;0;0;0
-Loading;1526;940;341;341; 0.5;0.5; 0;0;0;0
-Loading-Layer 180 copy;890;1283;841;86; 0.5;0.5; 0;0;0;0
-Loading-Loading . . .;769;937;456;105; 0.5;0.5; 0;0;0;0
-Loading-Rounded Rectangle 20;1587;173;44;110; 0.5;0.5; 0;0;0;0
-Loading-Thanh tien trinh_full;1;715;829;73; 0.5;0.5; 0;0;0;0
-MonsterMode-AS;1;1259;887;476; 0.5;0.5; 0;0;0;0
-MonsterMode-Button_try now;1160;453;310;135; 0.5;0.5; 0;0;0;0
-MonsterMode-Rounded Rectangle 524;1;409;516;304; 0.5;0.5; 0;0;0;0
-NativeAds-Ad;1227;1014;42;28; 0.5;0.5; 0;0;0;0
-NativeAds-Button;890;1186;634;95; 0.5;0.5; 0;0;0;0
-NativeAds-Polygon 3 copy 4;1733;1287;97;16; 0.5;0.5; 0;0;0;0
-OverlapCanvas-IconNoAds;1363;1038;155;146; 0.5;0.5; 0;0;0;0
-OverlapCanvas-IconSetting;1472;442;141;146; 0.5;0.5; 0;0;0;0
-PopUpLimitedItem-Bow;1698;1570;165;165; 0.5;0.5; 0;0;0;0
-PopUpLimitedItem-ButtonClaim;1271;934;253;102; 0.5;0.5; 0;0;0;0
-PopUpLimitedItem-HeaderConner;769;1044;592;140; 0.5;0.5; 0;0;0;0
-PopUpLimitedItem-text-LIMITED ITEM;1221;590;387;50; 0.5;0.5; 0;0;0;0
-PopUpLimitedItem-text-Nothanks;331;382;136;25; 0.5;0.5; 0;0;0;0
-Rate-star;1765;708;99;95; 0.5;0.5; 0;0;0;0
-Rate-unselectStart;1633;141;99;95; 0.5;0.5; 0;0;0;0
-Setting-Button_Home;1577;805;283;133; 0.5;0.5; 0;0;0;0
-Setting-Button_silent;682;4;165;155; 0.5;0.5; 0;0;0;0
-Setting-Button_sound music bt;1472;285;165;155; 0.5;0.5; 0;0;0;0
-Setting-icon_music silent;769;1186;87;71; 0.5;0.5; 0;0;0;0
-Setting-icon_music;1793;9;74;71; 0.5;0.5; 0;0;0;0
-Setting-icon_sound silent;1752;518;90;74; 0.5;0.5; 0;0;0;0
-Setting-icon_sound;1776;346;87;74; 0.5;0.5; 0;0;0;0
-Stage-BgBehindAlbum;1;4;328;403; 0.5;0.5; 0;0;0;0
-Stage-BgCountNumberModel;1560;96;68;70; 0.5;0.5; 0;0;0;0
-Stage-BgDeleteForcus;890;1529;806;206; 0.5;0.5; 0;0;0;0
-Stage-BgMainAlbum;519;350;288;363; 0.5;0.5; 0;0;0;0
-Stage-BgMiddle;1;790;1080;142; 0.5;0.5; 0;0;0;0
-Stage-BgNumberModel;1577;723;186;80; 0.5;0.5; 0;0;0;0
-Stage-Btn_mixmonster;1156;72;180;171; 0.5;0.5; 0;0;0;0
-Stage-ButtonDeressUp;331;161;508;187; 0.5;0.5; 0;0;0;0
-Stage-Cham than;1103;192;50;51; 0.5;0.5; 0;0;0;0
-Stage-icon_lock;1776;422;76;94; 0.5;0.5; 0;0;0;0
-Stage-IconAddMoreLimitModel;1398;11;50;51; 0.5;0.5; 0;0;0;0
-Stage-IconDeleteImedelyModel;1560;24;68;70; 0.5;0.5; 0;0;0;0
-Stage-IconDeleteModel;1338;64;114;126; 0.5;0.5; 0;0;0;0
-Stage-IconModel;1630;6;55;55; 0.5;0.5; 0;0;0;0
-Stage-Mix Monster;1558;649;171;72; 0.5;0.5; 0;0;0;0
-Stage-Shadow char tren stage;1103;245;209;75; 0.5;0.5; 0;0;0;0
-View-bgIcon;1221;642;335;123; 0.5;0.5; 0;0;0;0
-View-icon_heart;1250;8;76;62; 0.5;0.5; 0;0;0;0
-View-icon_Live;1103;322;230;129; 0.5;0.5; 0;0;0;0
-View-icon_mat xem;1450;14;79;46; 0.5;0.5; 0;0;0;0
-YesNoPlay-BgNotSelected;1733;1305;130;123; 0.5;0.5; 0;0;0;0
-YesNoPlay-BgSelected;1639;238;130;123; 0.5;0.5; 0;0;0;0
-YesNoPlay-BgSelecting;1338;192;130;123; 0.5;0.5; 0;0;0;0
-YesNoPlay-Bong bong;841;190;260;261; 0.5;0.5; 0;0;0;0
-YesNoPlay-ButtonNo;849;22;305;166; 0.5;0.5; 0;0;0;0
-YesNoPlay-ButtonYes;1271;767;304;165; 0.5;0.5; 0;0;0;0
-YesNoPlay-Icon_acc;1716;5;75;75; 0.5;0.5; 0;0;0;0
-YesNoPlay-Icon_face;1156;5;92;65; 0.5;0.5; 0;0;0;0
-YesNoPlay-Icon_hair;1771;264;84;80; 0.5;0.5; 0;0;0;0
-YesNoPlay-Icon_shirt;1630;63;84;76; 0.5;0.5; 0;0;0;0
-YesNoPlay-Icon_shoe;1734;158;86;78; 0.5;0.5; 0;0;0;0
-YesNoPlay-Icon_skirt;1734;82;88;74; 0.5;0.5; 0;0;0;0
-YesNoPlay-Layer 96;1714;1430;146;138; 0.5;0.5; 0;0;0;0
-YesNoPlay-tick;1328;1;68;59; 0.5;0.5; 0;0;0;0
+Comom-finger_for_tutorial;1826;953;186;143; 0.5;0.5; 0;0;0;0
+Comom-Header;1;862;766;323; 0.5;0.5; 0;0;0;0
+Comom-IconADS;1938;610;92;112; 0.5;0.5; 0;0;0;0
+Comom-IconExit;1670;227;135;134; 0.5;0.5; 0;0;0;0
+Comom-IconYellowButton;812;697;387;186; 0.5;0.5; 0;0;0;0
+Comom-QuaBong;1806;482;115;115; 0.5;0.5; 0;0;0;0
+Comom-Ruybang (1);1;696;809;164; 0.5;0.5; 0;0;0;0
+Comom-Ruybang;1;538;822;156; 0.5;0.5; 0;0;0;0
+Comom-Star;769;1081;104;104; 0.5;0.5; 0;0;0;0
+Completed-Button_next;1698;1372;349;147; 0.5;0.5; 0;0;0;0
+Completed-Button_share;1698;1223;349;147; 0.5;0.5; 0;0;0;0
+Completed-Icon-co;832;409;28;39; 0.5;0.5; 0;0;0;0
+Completed-Icon_back;1652;84;135;141; 0.5;0.5; 0;0;0;0
+Completed-Icon_share;1789;84;135;141; 0.5;0.5; 0;0;0;0
+Loading;519;32;341;341; 0.5;0.5; 0;0;0;0
+Loading-Layer 180 copy;1;450;841;86; 0.5;0.5; 0;0;0;0
+Loading-Loading . . .;825;590;456;105; 0.5;0.5; 0;0;0;0
+Loading-Rounded Rectangle 20;1923;273;44;110; 0.5;0.5; 0;0;0;0
+Loading-Thanh tien trinh_full;1;375;829;73; 0.5;0.5; 0;0;0;0
+MonsterMode-AS;1;1187;887;476; 0.5;0.5; 0;0;0;0
+MonsterMode-Button_try now;1192;88;310;135; 0.5;0.5; 0;0;0;0
+MonsterMode-Rounded Rectangle 524;1;69;516;304; 0.5;0.5; 0;0;0;0
+NativeAds-Ad;1807;227;42;28; 0.5;0.5; 0;0;0;0
+NativeAds-Button;890;1216;634;95; 0.5;0.5; 0;0;0;0
+NativeAds-Polygon 3 copy 4;1364;626;97;16; 0.5;0.5; 0;0;0;0
+OverlapCanvas-IconNoAds;1649;511;155;146; 0.5;0.5; 0;0;0;0
+OverlapCanvas-IconSetting;1649;363;141;146; 0.5;0.5; 0;0;0;0
+PopUpLimitedItem-Bow;1526;1146;165;165; 0.5;0.5; 0;0;0;0
+PopUpLimitedItem-ButtonClaim;1773;849;253;102; 0.5;0.5; 0;0;0;0
+PopUpLimitedItem-HeaderConner;890;1074;592;140; 0.5;0.5; 0;0;0;0
+PopUpLimitedItem-text-LIMITED ITEM;1;17;387;50; 0.5;0.5; 0;0;0;0
+Rate-star;1792;385;99;95; 0.5;0.5; 0;0;0;0
+Rate-unselectStart;1893;385;99;95; 0.5;0.5; 0;0;0;0
+Setting-Button_Home;1541;963;283;133; 0.5;0.5; 0;0;0;0
+Setting-Button_silent;1482;487;165;155; 0.5;0.5; 0;0;0;0
+Setting-Button_sound music bt;1482;330;165;155; 0.5;0.5; 0;0;0;0
+Setting-icon_music silent;1938;537;87;71; 0.5;0.5; 0;0;0;0
+Setting-icon_music;1201;716;74;71; 0.5;0.5; 0;0;0;0
+Setting-icon_sound silent;1553;32;90;74; 0.5;0.5; 0;0;0;0
+Setting-icon_sound;1735;8;87;74; 0.5;0.5; 0;0;0;0
+Stage-BgBehindAlbum;862;185;328;403; 0.5;0.5; 0;0;0;0
+Stage-BgCountNumberModel;1969;313;68;70; 0.5;0.5; 0;0;0;0
+Stage-BgDeleteForcus;890;1313;806;206; 0.5;0.5; 0;0;0;0
+Stage-BgMainAlbum;1192;225;288;363; 0.5;0.5; 0;0;0;0
+Stage-BgMiddle;890;1521;1080;142; 0.5;0.5; 0;0;0;0
+Stage-BgNumberModel;1482;248;186;80; 0.5;0.5; 0;0;0;0
+Stage-Btn_mixmonster;1589;659;180;171; 0.5;0.5; 0;0;0;0
+Stage-ButtonDeressUp;769;885;508;187; 0.5;0.5; 0;0;0;0
+Stage-Cham than;1923;484;50;51; 0.5;0.5; 0;0;0;0
+Stage-icon_lock;1201;789;76;94; 0.5;0.5; 0;0;0;0
+Stage-IconAddMoreLimitModel;1975;484;50;51; 0.5;0.5; 0;0;0;0
+Stage-IconDeleteImedelyModel;1969;241;68;70; 0.5;0.5; 0;0;0;0
+Stage-IconDeleteModel;1807;257;114;126; 0.5;0.5; 0;0;0;0
+Stage-IconModel;1484;1089;55;55; 0.5;0.5; 0;0;0;0
+Stage-Mix Monster;1380;14;171;72; 0.5;0.5; 0;0;0;0
+Stage-Shadow char tren stage;1169;11;209;75; 0.5;0.5; 0;0;0;0
+View-bgIcon;1693;1098;335;123; 0.5;0.5; 0;0;0;0
+View-icon_heart;1912;17;76;62; 0.5;0.5; 0;0;0;0
+View-icon_Live;1541;832;230;129; 0.5;0.5; 0;0;0;0
+View-icon_mat xem;1283;596;79;46; 0.5;0.5; 0;0;0;0
+YesNoPlay-BgNotSelected;1773;724;130;123; 0.5;0.5; 0;0;0;0
+YesNoPlay-BgSelected;1905;724;130;123; 0.5;0.5; 0;0;0;0
+YesNoPlay-BgSelecting;1806;599;130;123; 0.5;0.5; 0;0;0;0
+YesNoPlay-Bong bong;1279;811;260;261; 0.5;0.5; 0;0;0;0
+YesNoPlay-ButtonNo;862;17;305;166; 0.5;0.5; 0;0;0;0
+YesNoPlay-ButtonYes;1283;644;304;165; 0.5;0.5; 0;0;0;0
+YesNoPlay-Icon_acc;1972;1588;75;75; 0.5;0.5; 0;0;0;0
+YesNoPlay-Icon_face;390;2;92;65; 0.5;0.5; 0;0;0;0
+YesNoPlay-Icon_hair;1926;159;84;80; 0.5;0.5; 0;0;0;0
+YesNoPlay-Icon_shirt;1926;81;84;76; 0.5;0.5; 0;0;0;0
+YesNoPlay-Icon_shoe;1824;4;86;78; 0.5;0.5; 0;0;0;0
+YesNoPlay-Icon_skirt;1645;8;88;74; 0.5;0.5; 0;0;0;0
+YesNoPlay-Layer 96;1504;108;146;138; 0.5;0.5; 0;0;0;0
+YesNoPlay-tick;1972;1527;68;59; 0.5;0.5; 0;0;0;0

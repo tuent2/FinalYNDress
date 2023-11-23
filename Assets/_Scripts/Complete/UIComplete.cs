@@ -9,6 +9,9 @@ public class UIComplete : MonoBehaviour
     public GameObject ContentHolder;
     public Image ScreenShotImage;
     [SerializeField] GameObject ShareGameobject;
+    [SerializeField] TextMeshProUGUI ShareLikeText;
+    [SerializeField] TextMeshProUGUI ShareSeenText;
+
     [SerializeField] GameObject MainCompleteobject;
     [SerializeField] Button nextButton;
     [SerializeField] Button shareButton;
@@ -19,6 +22,8 @@ public class UIComplete : MonoBehaviour
     [SerializeField] TextMeshProUGUI numberOfCharacterNeedDrag;
     [SerializeField] Button removeCharacterButton;
     [SerializeField] GameObject CharacterDoNotDragPanel;
+    public TextMeshProUGUI LikeText;
+    public TextMeshProUGUI SeenText;
     private void Awake()
     {
         THIS = this;
@@ -27,14 +32,25 @@ public class UIComplete : MonoBehaviour
     {
         
         changeStageSenceButton.onClick.AddListener(() => {
+            
             GameManager.THIS.TurnOfCurrentPhase();
             GameManager.THIS.ChangePhaseStage();
+
+
+            int numberPlay = PlayerPrefs.GetInt("NumberPlay", 1);
+            if (numberPlay >= 2)
+            {
+                AdsIronSourceController.THIS.ShowInterstitialAds();
+            }
         });
         shareButton.onClick.AddListener(() =>
         {
             sharePanel.UpdateImageShareAndSpirte(ScreenShotSprite);
             MainCompleteobject.SetActive(false);
             ShareGameobject.SetActive(true);
+            ShareLikeText.text = LikeText.text;
+            ShareSeenText.text = SeenText.text;
+
         });
         removeCharacterButton.onClick.AddListener(() =>
         {
@@ -49,8 +65,14 @@ public class UIComplete : MonoBehaviour
             }
         });
         nextButton.onClick.AddListener(() => {
+            
             GameManager.THIS.TurnOfCurrentPhase();
             GameManager.THIS.ChangePhaseYesNoPlay();
+            int numberPlay = PlayerPrefs.GetInt("NumberPlay", 1);
+            if (numberPlay >= 2)
+            {
+                AdsIronSourceController.THIS.ShowInterstitialAds();
+            }
         });
     }
     

@@ -160,16 +160,27 @@ public class YesNoPlayMananger : MonoBehaviour
 
     public void RandomItemLimited()
     {
+        SkinToChange[] skins;
 
-        SkinToChange[] skins = { SkinToChange.Hair, SkinToChange.Shirt, SkinToChange.Skirt, SkinToChange.Acc, SkinToChange.Shoe, SkinToChange.Face };
+        if (numberPlay == 0 || numberPlay == 1)
+        {
+            skins = new SkinToChange[] { SkinToChange.Shirt, SkinToChange.Skirt, SkinToChange.Acc, SkinToChange.Shoe, SkinToChange.Face };
+        }
+        else
+        {
+            skins = new SkinToChange[] { SkinToChange.Hair, SkinToChange.Shirt, SkinToChange.Skirt, SkinToChange.Acc, SkinToChange.Shoe, SkinToChange.Face };
+        }
 
-         firstSkin = skins[UnityEngine.Random.Range(0, skins.Length)];
+
+        firstSkin = skins[UnityEngine.Random.Range(0, skins.Length)];
 
         
         do
         {
             secondSkin = skins[UnityEngine.Random.Range(0, skins.Length)];
         } while (Mathf.Abs((int)secondSkin - (int)firstSkin) < 2);
+
+        
 
         Debug.Log("Phần tử thứ nhất: " + firstSkin);
         Debug.Log("Phần tử thứ hai: " + secondSkin);
@@ -190,13 +201,13 @@ public class YesNoPlayMananger : MonoBehaviour
     public void TestSkinCharacter()
     {
 
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Base, "DaTrang");
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Hair, "Hair/Hair_Base_Trang");
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shirt, "Shirt/Shirt_Base_Trang");
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Skirt, "Skirt/Skirt_Base_Den");
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Acc, null);
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shoe, "Shoes/Shoes_Base_Trang");
-        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Face, null);
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Base, "DaTrang");
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Hair, "Hair/Hair_Base_Trang");
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shirt, "Shirt/Shirt_Base_Trang");
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Skirt, "Skirt/Skirt_Base_Den");
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Acc, null);
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shoe, "Shoes/Shoes_Base_Trang");
+        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Face, null);
 
         //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Base, "DaDen");
         //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Hair, "Hair/Hair_Base_Den");
@@ -209,25 +220,25 @@ public class YesNoPlayMananger : MonoBehaviour
 
 
 
-        //int BaseSkin = UnityEngine.Random.Range(0, 2);
-        //int hairIndex = UnityEngine.Random.Range(0, hairSprite.Count);
-        //int shirtIndex = UnityEngine.Random.Range(0, shirtSprite.Count);
-        //int skirtIndex = UnityEngine.Random.Range(0, skirtSprite.Count);
-        //int accIndenx = UnityEngine.Random.Range(0, accSprite.Count);
-        //int shoeIndex = UnityEngine.Random.Range(0, shoeSprite.Count);
-        //int faceIndex = UnityEngine.Random.Range(0, faceSprite.Count);
+        int BaseSkin = UnityEngine.Random.Range(0, 2);
+        int hairIndex = UnityEngine.Random.Range(0, hairSprite.Count);
+        int shirtIndex = UnityEngine.Random.Range(0, shirtSprite.Count);
+        int skirtIndex = UnityEngine.Random.Range(0, skirtSprite.Count);
+        int accIndenx = UnityEngine.Random.Range(0, accSprite.Count);
+        int shoeIndex = UnityEngine.Random.Range(0, shoeSprite.Count);
+        int faceIndex = UnityEngine.Random.Range(0, faceSprite.Count);
 
 
 
 
 
-        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Base, (BaseSkin == 0) ? "DaDen" : "DaTrang");
-        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Hair, hairSkin[hairIndex]);
-        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shirt, shirtSkin[shirtIndex]);
-        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Skirt, skirtSkin[skirtIndex]);
-        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Acc, accSkin[accIndenx]);
-        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shoe, shoeSkin[shoeIndex]);
-        //mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Face, faceSkin[faceIndex]);
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Base, (BaseSkin == 0) ? "DaDen" : "DaTrang");
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Hair, hairSkin[hairIndex]);
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shirt, "Shirt/Shirt12");
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Skirt, skirtSkin[skirtIndex]);
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Acc, "Accessory/Acc13");
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Shoe, shoeSkin[shoeIndex]);
+        mainCharacterController.UpdateCharacterSkinStringIndex(SkinToChange.Face, faceSkin[faceIndex]);
         mainCharacterController.UpdateCharacterSkin();
 
 
@@ -366,14 +377,8 @@ public class YesNoPlayMananger : MonoBehaviour
     {
         int listLength = listSprite.Count;
 
-        List<Sprite> selectedSprites = new List<Sprite>();
-
-        for (int i = listLength - 5; i < listLength; i++)
-        {
-            selectedSprites.Add(listSprite[i]);
-        }
-
-        int randomIndex = UnityEngine.Random.Range(listLength - 5, listLength);
+       
+        int randomIndex = UnityEngine.Random.Range(listLength - 5, listLength+1);
         //Sprite selectedSprite = listSprite[randomIndex];
 
       
@@ -381,8 +386,8 @@ public class YesNoPlayMananger : MonoBehaviour
         //{
         //    Debug.Log(sprite.name);
         //}
-        Debug.Log("Vị trí của sprite được chọn: " + randomIndex);
-        return randomIndex;
+        Debug.Log("Vị trí của sprite được chọn: " + (randomIndex-1));
+        return randomIndex-1;
         
     }
 
@@ -790,7 +795,7 @@ public class YesNoPlayMananger : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         mainCharacterController.PlayAnimationCharacter(0, "Dance", true);
-        mainCharacterController.gameObject.transform.position = new Vector3(0f, -4.7f, 0f);
+        mainCharacterController.gameObject.transform.position = new Vector3(0f, -4.8f, 0f);
         mainCharacterController.gameObject.transform.DOScale(new Vector3(0.75f, 0.75f, 0.75f), 0f);
         yield return new WaitForSeconds(0.35f);
         cameraMain.DOOrthoSize(cameraMain.orthographicSize * 1.2f, 0.5f);

@@ -20,6 +20,7 @@ public class PopupLimitedItemController : MonoBehaviour
     public void ClickNoThankButton()
     {
         gameObject.SetActive(false);
+        AdsIronSourceController.THIS.ShowInterstitialAds();
         YesNoPlayMananger.THIS.ClearOneItemShowPopup();
         YesNoPlayMananger.THIS.RandomSkinInSideBuble();
     }
@@ -43,6 +44,7 @@ public class PopupLimitedItemController : MonoBehaviour
     public void ActionAfterWatchAds()
     {
         YesNoPlayMananger.THIS.behindCharacterController.MoveLimitedItemToTarget(itemImage.sprite);
+        GameManager.THIS.yesNoPlayMananger.skinIndex = indexOfItem;
         gameObject.SetActive(false);
     }
 

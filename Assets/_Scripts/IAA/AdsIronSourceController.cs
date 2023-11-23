@@ -377,7 +377,7 @@ public class AdsIronSourceController : MonoBehaviour
 
     private IEnumerator SetButtonCanSelect()
     {
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(2.2f);
         GameManager.THIS.uIYesNoPlay.ChangeStateOfButton(true);
     }
 

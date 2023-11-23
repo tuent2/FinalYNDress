@@ -7,7 +7,7 @@ using TMPro;
 public class LoadingController : MonoBehaviour
 {
     public static LoadingController THIS;
-
+    public TextMeshProUGUI LoadingText;
     [SerializeField] CanvasGroup canvasGroup;
     [SerializeField] Image LoadingImageObject;
 
@@ -35,13 +35,12 @@ public class LoadingController : MonoBehaviour
 
 
     public void LoadingAction(System.Action onCompleteAction)
-    {
+    {   
         gameObject.SetActive(true);
+        StartCoroutine(HanldeShowTextLoading(0.5f));
         LoadingImageObject.fillAmount = 0;
-        canvasGroup.alpha = 0;
-        canvasGroup.DOFade(0.8f, 1f).OnComplete(() =>
-        {
-            canvasGroup.DOFade(1.0f, 0.5f);
+        
+
             LoadingImageObject.DOFillAmount(0.3f, 0.3f).OnComplete(() =>
             {
                 
@@ -50,7 +49,7 @@ public class LoadingController : MonoBehaviour
                 StartCoroutine(WaitToTurnOffLoading());
             }); ;
 
-        });
+
 
 
 
@@ -62,11 +61,24 @@ public class LoadingController : MonoBehaviour
 
     IEnumerator WaitToTurnOffLoading()
     {
-        yield return  new WaitForSeconds(1f);
+        yield return  new WaitForSeconds(1.2f);
         gameObject.SetActive(false);
     }
 
-    
-   
+    IEnumerator HanldeShowTextLoading(float timeChangeText)
+    {
+        while (LoadingText)
+        {
+            LoadingText.text = "Loading";
+            yield return new WaitForSecondsRealtime(timeChangeText);
+            LoadingText.text = "Loading" + ".";
+            yield return new WaitForSecondsRealtime(timeChangeText);
+            LoadingText.text = "Loading" + "..";
+            yield return new WaitForSecondsRealtime(timeChangeText);
+            LoadingText.text = "Loading" + "...";
+            yield return new WaitForSecondsRealtime(timeChangeText);
+        }
+    }
+
 }
 
